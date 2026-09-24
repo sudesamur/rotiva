@@ -1,0 +1,491 @@
+{
+  "dataset": "Üsküdar–Kuzguncuk isimli yeme içme mekânları",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-02",
+  "regionId": "uskudar-kuzguncuk",
+  "currency": "TRY",
+  "scope": "Günlük rota aday havuzu. Fiyat, açık saat ve işletme durumu rotadan hemen önce canlı kaynaktan doğrulanmalıdır.",
+  "venues": [
+    {
+      "id": "metet-kozde-doner-kuzguncuk",
+      "name": "Metet Közde Döner Kuzguncuk",
+      "category": "doner_restaurant",
+      "address": "Kuzguncuk Mahallesi, İcadiye Caddesi No:10, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.036062,
+        "lng": 29.029562
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "11:00–21:45 olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "meal": [
+          300,
+          750
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "öğle-yemeği",
+        "hızlı-yemek",
+        "döner"
+      ],
+      "tags": [
+        "ekonomik",
+        "döner",
+        "Kuzguncuk"
+      ],
+      "sourceUrl": "https://metetdoner.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "cinaralti-cay-bahcesi-kuzguncuk",
+      "name": "Çınaraltı Çay Bahçesi Kuzguncuk",
+      "category": "tea_garden",
+      "address": "Kuzguncuk Çarşısı Caddesi No:1, Kuzguncuk, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.036563,
+        "lng": 29.029562
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "teaOrCoffee": [
+          70,
+          220
+        ],
+        "snack": [
+          150,
+          450
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "çay",
+        "kahve",
+        "mahalle-molası"
+      ],
+      "tags": [
+        "ekonomik",
+        "çay",
+        "Kuzguncuk",
+        "açık-hava"
+      ],
+      "sourceUrl": "https://mekanlar.com/mekan/cinaralti-cay-bahcesi",
+      "sourceQuality": "directory_verified",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "dilruba-kafe-restoran",
+      "name": "Dilruba Kafe Restoran",
+      "category": "view_restaurant",
+      "address": "Kuzguncuk Mahallesi, Barışık Sokak No:1, Fethi Paşa Korusu, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.032187,
+        "lng": 29.029187
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "08:00–23:00; Pazartesi kapalı olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "high",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          850,
+          2000
+        ],
+        "meal": [
+          800,
+          2000
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "kahvaltı",
+        "akşam-yemeği",
+        "boğaz-manzarası"
+      ],
+      "tags": [
+        "manzara",
+        "Fethi-Paşa",
+        "kahvaltı",
+        "özel-gün"
+      ],
+      "sourceUrl": "https://dilruba.com.tr/tr/iletisim",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "fabrikafa-uskudar",
+      "name": "Fabrikafa Üsküdar",
+      "category": "cafe_workshop",
+      "address": "Aziz Mahmut Hüdayi Mahallesi, Gülfem Sokak No:15, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.023313,
+        "lng": 29.014688
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "Her gün 12:00–22:30 olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          140,
+          320
+        ],
+        "snack": [
+          220,
+          550
+        ],
+        "workshop": [
+          0,
+          0
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahve",
+        "atölye",
+        "kısa-mola"
+      ],
+      "tags": [
+        "kahve",
+        "atölye",
+        "Üsküdar",
+        "sosyal"
+      ],
+      "sourceUrl": "https://fabrikafa.org/en/contact/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "cremia-cafe-rest",
+      "name": "Cremia Cafe & Rest",
+      "category": "cafe_restaurant",
+      "address": "Mimar Sinan Mahallesi, Uncular Caddesi No:26/A, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.024438,
+        "lng": 29.013688
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          400,
+          1000
+        ],
+        "meal": [
+          450,
+          1000
+        ],
+        "coffee": [
+          130,
+          290
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahvaltı",
+        "öğle-yemeği",
+        "kahve",
+        "tatlı"
+      ],
+      "tags": [
+        "kahvaltı",
+        "Üsküdar",
+        "kahve",
+        "gün-boyu"
+      ],
+      "sourceUrl": "https://cremiacafe.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "nevmekan-kuzguncuk",
+      "name": "Nevmekan Kuzguncuk",
+      "category": "municipal_cafe_library",
+      "address": "Kuzguncuk, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.031188,
+        "lng": 29.030813
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          375,
+          750
+        ],
+        "coffee": [
+          80,
+          220
+        ],
+        "meal": [
+          250,
+          700
+        ]
+      },
+      "priceConfidence": "menu_source_available",
+      "activities": [
+        "kahve",
+        "kahvaltı",
+        "kitap-okuma",
+        "çalışma"
+      ],
+      "tags": [
+        "ekonomik",
+        "kitap",
+        "kahve",
+        "Kuzguncuk"
+      ],
+      "sourceUrl": "https://tesislerimiz.uskudar.bel.tr/webfiles/userfiles/files/1%20Ocak%202026%20Men%C3%BC/2026_selimiye_kuzguncuk_kandilli_hizli_menu.pdf",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "nevmekan-sahil",
+      "name": "Nevmekan Sahil",
+      "category": "municipal_cafe_library",
+      "address": "Aziz Mahmut Hüdayi Mahallesi, Şemsi Paşa Caddesi No:2, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.025312,
+        "lng": 29.010312
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "Kafe-restoran 09:00–23:00, kütüphane 08:00–23:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          250,
+          1000
+        ],
+        "coffee": [
+          80,
+          220
+        ],
+        "meal": [
+          250,
+          700
+        ]
+      },
+      "priceConfidence": "menu_source_available",
+      "activities": [
+        "kahve",
+        "kahvaltı",
+        "kitap-okuma",
+        "sahil-molası"
+      ],
+      "tags": [
+        "ekonomik",
+        "kütüphane",
+        "kahve",
+        "Üsküdar-sahil"
+      ],
+      "sourceUrl": "https://tesislerimiz.uskudar.bel.tr/tr/main/tesislerimiz/restaurantlar/5/nevmekan-sahil/14",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "mihrimah-kahve",
+      "name": "Mihrimah Kahve",
+      "category": "cafe",
+      "address": "Mimar Sinan Mahallesi, İmam Nasır Sokak No:10, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.024812,
+        "lng": 29.014187
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "Her gün 07:00–00:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          130,
+          320
+        ],
+        "dessert": [
+          200,
+          500
+        ],
+        "snack": [
+          220,
+          600
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahve",
+        "tatlı",
+        "kahvaltı",
+        "kısa-mola"
+      ],
+      "tags": [
+        "kahve",
+        "Üsküdar",
+        "gün-boyu"
+      ],
+      "sourceUrl": "https://www.mihrimahkahve.com/hakkimizda",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "salacak-restaurant",
+      "name": "Salacak Restaurant",
+      "category": "view_restaurant",
+      "address": "Salacak Mahallesi, Harem Sahil Yolu No:89/1, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.017812,
+        "lng": 29.009062
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          800,
+          1900
+        ],
+        "meal": [
+          850,
+          2200
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "kahvaltı",
+        "akşam-yemeği",
+        "Kız-Kulesi-manzarası"
+      ],
+      "tags": [
+        "Salacak",
+        "manzara",
+        "özel-gün",
+        "rezervasyon"
+      ],
+      "sourceUrl": "https://salacakrestoran.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "okyanus-balik-restaurant",
+      "name": "Okyanus Balık Restaurant",
+      "category": "seafood_restaurant",
+      "address": "Mimar Sinan Mahallesi, Atlamataşı Atlas Sokak No:26/1-2, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.024687,
+        "lng": 29.016188
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "estimatedSpendTRY": {
+        "meal": [
+          900,
+          2300
+        ],
+        "mealAndDrink": [
+          1400,
+          3200
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "akşam-yemeği",
+        "deniz-ürünleri",
+        "aile-yemeği"
+      ],
+      "tags": [
+        "balık",
+        "akşam",
+        "Üsküdar",
+        "rezervasyon"
+      ],
+      "sourceUrl": "https://www.okyanususkudar.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "kuzguncuk-cikolata-kahve",
+      "name": "Kuzguncuk Çikolata & Kahve",
+      "category": "cafe_dessert",
+      "address": "Kuzguncuk, İcadiye Caddesi No:45/A, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.035187,
+        "lng": 29.030563
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          130,
+          300
+        ],
+        "dessert": [
+          180,
+          480
+        ],
+        "coffeeAndDessert": [
+          300,
+          700
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahve",
+        "çikolata",
+        "tatlı",
+        "kısa-mola"
+      ],
+      "tags": [
+        "tatlı",
+        "kahve",
+        "Kuzguncuk"
+      ],
+      "sourceUrl": "https://tr.linkedin.com/company/kuzguncuk-%C3%A7ikolata-%26-kahve",
+      "sourceQuality": "directory_verified",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "pita-kuzguncuk",
+      "name": "Pita Kuzguncuk",
+      "category": "bakery_brunch",
+      "address": "İcadiye Caddesi, Kuzguncuk, Üsküdar, İstanbul",
+      "coordinates": {
+        "lat": 41.035187,
+        "lng": 29.030437
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          300,
+          800
+        ],
+        "coffee": [
+          130,
+          300
+        ],
+        "snack": [
+          220,
+          550
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahvaltı",
+        "fırın-ürünü",
+        "kahve",
+        "glutensiz-seçenek"
+      ],
+      "tags": [
+        "kahvaltı",
+        "fırın",
+        "Kuzguncuk",
+        "glutensiz-seçenek"
+      ],
+      "sourceUrl": "https://www.mekanoyla.com/mekan/pita-kuzguncuk",
+      "sourceQuality": "editorial_verified",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    }
+  ],
+  "enrichmentRules": {
+    "beforeRouting": [
+      "coordinates",
+      "currentOpeningHours",
+      "operationalStatus"
+    ],
+    "beforeBudgetDisplay": [
+      "currentMenuOrPriceLevel"
+    ],
+    "display": "Bütçe aralıkları tahmindir. Kesin fiyat ve açık olduğu bilgisi canlı doğrulama olmadan gösterilmemelidir."
+  }
+}

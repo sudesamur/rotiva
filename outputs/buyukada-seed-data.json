@@ -1,0 +1,104 @@
+{
+  "dataset": "Büyükada: mekân ve aktivite başlangıç verisi",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-04",
+  "currency": "TRY",
+  "scope": "Tam günlük ada rotası için kürasyon katmanı. Vapur saati rota kısıtıdır; yeme-içme aralıkları editoryal tahmindir.",
+  "places": [
+    {
+      "id": "buyukada-ferry-pier",
+      "name": "Büyükada İskelesi ve Çarşı",
+      "type": "transport_hub",
+      "coordinates": { "lat": 40.8747, "lng": 29.1218 },
+      "activities": [
+        { "name": "Vapurla varış veya ayrılış", "durationMinutes": 25, "costTRY": null, "costConfidence": "operator_tariff_required", "tags": ["ulaşım", "vapur", "manzara"] },
+        { "name": "Çarşıda kısa yürüyüş", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "yerel"] }
+      ],
+      "tags": ["başlangıç-noktası", "ulaşım", "vapur"],
+      "sources": ["https://sehirhatlari.istanbul/tr/ucret-tarifeleri"],
+      "verificationStatus": "Vapur saati, hat, ücret ve kullanıcı indirimleri rota üretiminde canlı sorgulanmalı. Sabit ücret kullanma."
+    },
+    {
+      "id": "buyukada-market-food-district",
+      "name": "Büyükada Çarşı Yeme-İçme Alanı",
+      "type": "food_district",
+      "coordinates": { "lat": 40.8744, "lng": 29.1227 },
+      "activities": [
+        { "name": "Ada kahvaltısı", "durationMinutes": 75, "costRangeTRY": [350, 1000], "costConfidence": "editorial_estimate", "tags": ["kahvaltı", "yerel", "sosyal"] },
+        { "name": "Öğle yemeği", "durationMinutes": 70, "costRangeTRY": [450, 1300], "costConfidence": "editorial_estimate", "tags": ["öğle-yemeği", "yerel"] },
+        { "name": "Dondurma veya tatlı molası", "durationMinutes": 30, "costRangeTRY": [150, 500], "costConfidence": "editorial_estimate", "tags": ["tatlı", "atıştırmalık"] }
+      ],
+      "tags": ["yeme-içme", "kahvaltı", "yerel"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "buyukada-historic-streets",
+      "name": "Büyükada Tarihî Sokakları",
+      "type": "historic_neighborhood",
+      "coordinates": { "lat": 40.8733, "lng": 29.1247 },
+      "activities": [
+        { "name": "Ahşap köşkler arasında yürüyüş", "durationMinutes": 60, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "yürüyüş", "fotoğraf"] },
+        { "name": "Bisikletli ada turu", "durationMinutes": 120, "costTRY": null, "costConfidence": "rental_tariff_required", "tags": ["bisiklet", "açık-hava", "spor"] }
+      ],
+      "tags": ["ücretsiz", "tarihi", "fotoğraf", "bisiklet"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "aya-yorgi-monastery",
+      "name": "Aya Yorgi Manastırı (Yücetepe)",
+      "type": "historic_religious_site",
+      "coordinates": { "lat": 40.8575, "lng": 29.1302 },
+      "openingHours": null,
+      "activities": [
+        { "name": "Yüce Tepe yürüyüşü ve manastır ziyareti", "durationMinutes": 180, "costTRY": 0, "costConfidence": "verification_required", "tags": ["tarihi", "yürüyüş", "manzara", "açık-hava"] }
+      ],
+      "tags": ["tarihi", "manzara", "zor-yürüyüş", "tam-gün-durak"],
+      "sources": ["https://adalar.bel.tr/aya-yorgi-rum-manastiri-yucetepe/"],
+      "routeNote": "Zirve patikası dik ve erişilebilir değildir. Saatler yerel olarak doğrulanmadan öneri kesinleştirilmemeli; yoğun hac günlerinde rota varsayılan olarak sunulmamalı."
+    },
+    {
+      "id": "hristos-monastery",
+      "name": "Hristos Manastırı ve İsa Tepesi",
+      "type": "historic_viewpoint",
+      "coordinates": { "lat": 40.8618, "lng": 29.1322 },
+      "activities": [
+        { "name": "Tepe yürüyüşü ve ada manzarası", "durationMinutes": 120, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "manzara", "tarihi"] }
+      ],
+      "tags": ["manzara", "zor-yürüyüş", "tarihi"],
+      "sources": ["https://adalar.bel.tr/hristos-manastiri-isa-tepesi/"]
+    },
+    {
+      "id": "dilburnu-picnic-area",
+      "name": "Dilburnu Piknik Alanı",
+      "type": "park_picnic",
+      "coordinates": { "lat": 40.8558, "lng": 29.1237 },
+      "activities": [
+        { "name": "Piknik ve deniz manzarası", "durationMinutes": 90, "costRangeTRY": [200, 800], "costConfidence": "editorial_estimate", "tags": ["piknik", "açık-hava", "manzara"] },
+        { "name": "Orman yürüyüşü", "durationMinutes": 60, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "doğa"] }
+      ],
+      "tags": ["doğa", "piknik", "açık-hava"],
+      "sources": ["https://adalar.bel.tr/halk-plajlari/"]
+    },
+    {
+      "id": "aya-nikola-beach",
+      "name": "Aya Nikola Halk Plajı",
+      "type": "beach",
+      "coordinates": { "lat": 40.8643, "lng": 29.1372 },
+      "activities": [
+        { "name": "Deniz ve sahil molası", "durationMinutes": 150, "costTRY": null, "costConfidence": "seasonal_tariff_required", "tags": ["deniz", "açık-hava", "yaz"] }
+      ],
+      "tags": ["yaz", "deniz", "aile"],
+      "sources": ["https://adalar.bel.tr/halk-plajlari/"],
+      "verificationStatus": "Sezon, ulaşım ve giriş koşulları ziyaret gününde doğrulanmalı."
+    }
+  ],
+  "dataRules": {
+    "ferryConstraint": "İlk vapur varışından önce ada içi aktivite başlatma; son dönüş vapurundan en az 30 dakika önce iskeleye dönüş planla.",
+    "routeDuration": "Büyükada rotası için varsayılan minimum süre 480 dakikadır.",
+    "weather": "Yağmur veya aşırı sıcaklıkta Aya Yorgi ve tepe yürüyüşlerini önerme; çarşı, kahve ve tarihî sokaklar ile kısa rota oluştur.",
+    "foodAndCoffeePrices": "Kesin fiyat yerine tahmini aralık göster.",
+    "accessibility": "Aya Yorgi, Hristos ve sahil dışındaki uzun yürüyüşler hareket kısıtlılığı olan kullanıcılar için varsayılan olarak önerilmemeli; iskele, çarşı ve tarihî sokaklar önceliklendirilmeli.",
+    "seasonality": "Aya Nikola Halk Plajı yalnız sezon, deniz koşulu ve güncel giriş bilgisi doğrulandıysa önerilmeli.",
+    "transport": "Ada içi taşıma seçeneği ve kiralama tarifesi canlı doğrulanmadan süre veya maliyete sabit değer atama."
+  }
+}

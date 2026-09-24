@@ -1,0 +1,28 @@
+{
+  "dataset": "Sultanahmet–Eminönü koordinat doğrulamaları",
+  "updatedAt": "2026-09-07",
+  "verificationMethod": "Google Haritalar herkese açık mekan kaydı; resmi müze/saray sayfası ile ad ve adres çapraz kontrolü.",
+  "places": {
+    "topkapi-palace": {
+      "coordinates": { "lat": 41.0115195, "lng": 28.9833789 },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "verificationSource": "Google Haritalar: Topkapı Sarayı Müzesi; Milli Saraylar resmi sayfası, 2026-09-07",
+      "sourceUrl": "https://www.google.com/maps/place/Topkap%C4%B1+Saray%C4%B1+M%C3%BCzesi/@41.0115195,28.9833789,17z"
+    },
+    "istanbul-archaeological-museums": {
+      "coordinates": { "lat": 41.0116855, "lng": 28.9813305 },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "verificationSource": "Google Haritalar: İstanbul Arkeoloji Müzeleri; Kültür ve Turizm Bakanlığı resmi sayfası, 2026-09-07",
+      "sourceUrl": "https://www.google.com/maps/place/%C4%B0stanbul+Arkeoloji+M%C3%BCzeleri/@41.0116855,28.9813305,17z"
+    },
+    "turkish-islamic-arts-museum": {
+      "coordinates": { "lat": 41.0062236, "lng": 28.9747201 },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "verificationSource": "Google Haritalar: Türk ve İslam Eserleri Müzesi; Kültür ve Turizm Bakanlığı resmi sayfası, 2026-09-07",
+      "sourceUrl": "https://www.google.com/maps/place/T%C3%BCrk+ve+%C4%B0slam+Eserleri+M%C3%BCzesi/@41.0062236,28.9747201,17z"
+    }
+  }
+}

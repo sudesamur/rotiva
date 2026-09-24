@@ -1,0 +1,36 @@
+{
+  "dataset": "Ortaköy–Bebek rota şablonları",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-04",
+  "dependsOn": ["ortakoy-bebek-seed-data.json", "ortakoy-bebek-food-coffee-venues.json"],
+  "templates": [
+    {
+      "id": "ortakoy-bebek-bosphorus-walk",
+      "name": "Ortaköy’den Bebek’e Boğaz yürüyüşü",
+      "targetProfile": { "availableMinutes": 420, "budgetTRY": 1800, "interests": ["manzara", "yürüyüş", "kahve", "tarihi"], "pace": "normal" },
+      "estimatedTotal": { "durationMinutes": 420, "costRangeTRY": [650, 1800], "walkingMinutes": 160 },
+      "stops": [
+        { "placeId": "ortakoy-mosque", "activity": "Tarihî mimari gezisi", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "ortakoy-waterfront-cafes", "activity": "Boğaz manzaralı kahvaltı", "durationMinutes": 75, "costRangeTRY": [450, 2000], "candidateVenueIds": ["the-house-cafe-ortakoy", "aqua-lounge-ortakoy", "kaytan-lounge", "bebek-kahve"] },
+        { "placeId": "kurucesme-waterfront", "activity": "Boğaz boyunca yürüyüş", "durationMinutes": 50, "costTRY": 0 },
+        { "placeId": "arnavutkoy-neighborhood", "activity": "Tarihî yalılar arasında yürüyüş", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "bebek-park", "activity": "Sahil yürüyüşü", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "bebek-coffee-food-district", "activity": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [150, 750], "candidateVenueIds": ["bebek-kahve", "cup-of-joy-bebek", "meshur-bebek-badem-ezmesi"] }
+      ],
+      "notes": ["Yürüyüş mesafesi uzundur; rota motoru erişilebilirlik veya düşük yürüyüş tercihi için ara toplu taşıma bacağı eklemeli.", "Ortaköy Camii ziyareti ibadet saatlerine göre ayarlanmalı."]
+    },
+    {
+      "id": "rumeli-hisari-sunset",
+      "name": "Rumeli Hisarı ve Bebek akşamüstü",
+      "targetProfile": { "availableMinutes": 330, "budgetTRY": 3000, "interests": ["müze", "tarihi", "manzara", "yemek"], "pace": "rahat" },
+      "estimatedTotal": { "durationMinutes": 330, "costRangeTRY": [1080, 3300], "walkingMinutes": 70 },
+      "stops": [
+        { "placeId": "rumeli-fortress", "activity": "Hisar ve Boğaz manzarası gezisi", "durationMinutes": 90, "costTRY": null, "foreignVisitorCostEUR": 6 },
+        { "placeId": "bebek-park", "activity": "Manzara fotoğrafı", "durationMinutes": 20, "costTRY": 0 },
+        { "placeId": "bebek-coffee-food-district", "activity": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [150, 750], "candidateVenueIds": ["bebek-kahve", "cup-of-joy-bebek", "meshur-bebek-badem-ezmesi"] },
+        { "placeId": "bebek-coffee-food-district", "activity": "Akşam yemeği", "durationMinutes": 90, "costRangeTRY": [850, 3800], "candidateVenueIds": ["mangerie-bebek", "banyan-ortakoy", "dione-lounge-ortakoy"], "combinedVisit": true }
+      ],
+      "notes": ["Rumeli Hisarı Pazartesi kapalıdır; gişe kapanışından önce varış zorunludur.", "Yerli ve yabancı ziyaretçi bilet kuralları ayrıştırılarak bütçe hesaplanmalıdır."]
+    }
+  ]
+}

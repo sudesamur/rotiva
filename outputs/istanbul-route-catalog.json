@@ -1,0 +1,106 @@
+{
+  "dataset": "İstanbul günlük rota veri kataloğu",
+  "version": "0.3.0",
+  "updatedAt": "2026-09-04",
+  "currency": "TRY",
+  "regions": [
+    {
+      "id": "kadikoy-moda",
+      "name": "Kadıköy–Moda",
+      "seedData": "kadikoy-moda-seed-data.json",
+      "routeTemplates": "kadikoy-moda-route-rules.json",
+      "supplementalData": ["kadikoy-moda-food-coffee-venues.json"],
+      "placeCount": 16,
+      "activityCount": 33,
+      "highlights": ["kahve", "sahil", "müze", "gece-hayatı", "yürüyüş"],
+      "bestFor": ["öğrenci-bütçesi", "kahve", "sosyal", "kültür-sanat"]
+    },
+    {
+      "id": "karakoy-galata-taksim",
+      "name": "Karaköy–Galata–Taksim",
+      "seedData": "karakoy-galata-taksim-seed-data.json",
+      "routeTemplates": "karakoy-galata-taksim-route-templates.json",
+      "supplementalData": ["karakoy-galata-taksim-food-coffee-venues.json"],
+      "placeCount": 12,
+      "activityCount": 27,
+      "highlights": ["müze", "manzara", "kahve", "tarihi", "akşam"],
+      "bestFor": ["sanat", "fotoğraf", "gece", "ilk-kez-istanbul"]
+    },
+    {
+      "id": "uskudar-kuzguncuk",
+      "name": "Üsküdar–Kuzguncuk",
+      "seedData": "uskudar-kuzguncuk-seed-data.json",
+      "routeTemplates": "uskudar-kuzguncuk-route-templates.json",
+      "supplementalData": ["uskudar-kuzguncuk-food-coffee-venues.json"],
+      "placeCount": 9,
+      "activityCount": 19,
+      "highlights": ["boğaz", "tarihi", "sahil", "kahve", "müze"],
+      "bestFor": ["manzara", "sakin-gezi", "fotoğraf", "aile"]
+    },
+    {
+      "id": "ortakoy-bebek",
+      "name": "Ortaköy–Bebek",
+      "seedData": "ortakoy-bebek-seed-data.json",
+      "routeTemplates": "ortakoy-bebek-route-templates.json",
+      "supplementalData": ["ortakoy-bebek-food-coffee-venues.json"],
+      "placeCount": 9,
+      "activityCount": 18,
+      "highlights": ["boğaz", "yürüyüş", "kahvaltı", "müze", "manzara"],
+      "bestFor": ["manzara", "çift", "uzun-yürüyüş", "özel-gün"]
+    },
+    {
+      "id": "sultanahmet-eminonu",
+      "name": "Sultanahmet–Eminönü",
+      "seedData": "sultanahmet-eminonu-seed-data.json",
+      "routeTemplates": "sultanahmet-eminonu-route-templates.json",
+      "supplementalData": ["sultanahmet-eminonu-food-coffee-venues.json"],
+      "placeCount": 10,
+      "activityCount": 17,
+      "highlights": ["müze", "tarihi", "çarşı", "vapur", "park"],
+      "bestFor": ["ilk-kez-istanbul", "tarih", "müze", "aile"]
+    },
+    {
+      "id": "buyukada",
+      "name": "Büyükada",
+      "seedData": "buyukada-seed-data.json",
+      "routeTemplates": "buyukada-route-templates.json",
+      "supplementalData": ["buyukada-food-coffee-venues.json"],
+      "placeCount": 7,
+      "activityCount": 12,
+      "highlights": ["vapur", "doğa", "tarihi", "yürüyüş", "deniz"],
+      "bestFor": ["tam-gün", "manzara", "aktif-gezi", "yaz"]
+    },
+    {
+      "id": "fener-balat-eyup",
+      "name": "Fener–Balat–Eyüp",
+      "seedData": "fener-balat-eyup-seed-data.json",
+      "routeTemplates": "fener-balat-eyup-route-templates.json",
+      "supplementalData": ["fener-balat-eyup-food-coffee-venues.json"],
+      "placeCount": 7,
+      "activityCount": 14,
+      "highlights": ["tarihi", "fotoğraf", "haliç", "kahve", "manzara"],
+      "bestFor": ["düşük-bütçe", "fotoğraf", "mahalle-keşfi", "tarih"]
+    }
+  ],
+  "routeEngineContract": {
+    "validationRules": "istanbul-route-engine-rules.json",
+    "input": {
+      "required": ["date", "startTime", "availableMinutes", "budgetTRY", "interests", "startRegionId"],
+      "optional": ["startPlaceId", "visitorProfile", "walkingPreference", "weather", "partySize", "ageRestrictionAllowed"]
+    },
+    "visitorProfileValues": ["turkish_citizen", "foreign_visitor", "student", "senior", "family"],
+    "output": ["selectedActivities", "orderedStops", "travelLegs", "estimatedTotalDuration", "estimatedTotalCost", "warnings", "sourceUpdatedAt"],
+    "mandatoryWarnings": [
+      "Fiyatı veya açık saati doğrulanmamış duraklar için canlı doğrulama gerekli uyarısı.",
+      "MüzeKart, öğrenci veya yabancı ziyaretçi farkı olan biletlerde profil uyarısı.",
+      "Yağmur ve yüksek yürüme mesafesi için rota uygunluk uyarısı."
+    ]
+  },
+  "dataQualityPolicy": {
+    "official": "Resmî kurum veya işletme kaynağından doğrulanan bilgi.",
+    "editorial_estimate": "Kullanıcıya tahmini aralık olarak gösterilebilir; kesin fiyat olarak gösterilemez.",
+    "verification_required": "Rota önerilmeden önce canlı kaynaktan kontrol edilmelidir.",
+    "event_ticket_required": "Etkinliğin güncel takvim ve bilet bilgisi alınmadan maliyet hesaplanamaz.",
+    "operator_tariff_required": "Ulaşım işletmesinin güncel tarifesi alınmadan maliyet hesaplanamaz."
+  }
+}

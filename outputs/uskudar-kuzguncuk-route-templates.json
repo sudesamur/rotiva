@@ -1,0 +1,38 @@
+{
+  "dataset": "Üsküdar–Kuzguncuk rota şablonları",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "dependsOn": "uskudar-kuzguncuk-seed-data.json",
+  "templates": [
+    {
+      "id": "free-uskudar-kuzguncuk-walk",
+      "name": "Üsküdar’dan Kuzguncuk’a ücretsiz manzara yürüyüşü",
+      "targetProfile": { "availableMinutes": 360, "budgetTRY": 1200, "interests": ["manzara", "tarihi", "yürüyüş", "kahve"], "pace": "normal" },
+      "estimatedTotal": { "durationMinutes": 360, "costRangeTRY": [380, 1250], "walkingMinutes": 110 },
+      "stops": [
+        { "placeId": "uskudar-ferry-terminal", "activity": "Meydan ve Boğaz fotoğrafı", "durationMinutes": 15, "costTRY": 0 },
+        { "placeId": "mihrimah-sultan-mosque-uskudar", "activity": "Tarihî mimari gezisi", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "salacak-coast", "activity": "Kız Kulesi manzarası", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "kuzguncuk-main-street", "activity": "Tarihî sokaklarda yürüyüş", "durationMinutes": 50, "costTRY": 0 },
+        { "placeId": "kuzguncuk-main-street", "activity": "Yerel öğle yemeği", "durationMinutes": 70, "costRangeTRY": [400, 1100], "combinedVisit": true },
+        { "placeId": "kuzguncuk-bostan", "activity": "Bostan ve açık hava gezisi", "durationMinutes": 35, "costTRY": 0 },
+        { "placeId": "nevmekan-kuzguncuk", "activity": "Kahve, yemek veya çalışma molası", "durationMinutes": 60, "costRangeTRY": [180, 650] }
+      ],
+      "notes": ["Bu rota sahil boyunca yürüyüş içerir; hareket kısıtlılığı olan kullanıcılar için iskele–Kuzguncuk arası toplu taşıma alternatifi eklenmeli.", "Cami durağı ibadet saatlerine göre zamanlanmalıdır."]
+    },
+    {
+      "id": "maiden-tower-sunset-uskudar",
+      "name": "Kız Kulesi ve gün batımı rotası",
+      "targetProfile": { "availableMinutes": 300, "budgetTRY": 3000, "interests": ["müze", "manzara", "fotoğraf", "kahve"], "pace": "rahat" },
+      "estimatedTotal": { "durationMinutes": 300, "costRangeTRY": [430, 2250], "walkingMinutes": 55 },
+      "stops": [
+        { "placeId": "uskudar-ferry-terminal", "activity": "Vapurla varış veya ayrılış", "durationMinutes": 20, "costTRY": null },
+        { "placeId": "maiden-tower", "activity": "Müze ve seyir noktası gezisi", "durationMinutes": 90, "costTRY": null, "foreignVisitorCostEUR": 27 },
+        { "placeId": "semsi-pasha-mosque-waterfront", "activity": "Sahil yürüyüşü", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "salacak-coast", "activity": "Sahilde kahve veya atıştırmalık", "durationMinutes": 40, "costRangeTRY": [180, 550] },
+        { "placeId": "fethi-pasha-grove", "activity": "Boğaz manzaralı yürüyüş", "durationMinutes": 60, "costTRY": 0 }
+      ],
+      "notes": ["Kız Kulesi için tekne transferi, bilet türü ve ziyaret saati canlı doğrulanmadan rota kesinleştirilmemeli.", "Hava açık değilse Fethi Paşa Korusu yerine Nevmekân Kuzguncuk seçilebilir."]
+    }
+  ]
+}

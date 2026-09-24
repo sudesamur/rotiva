@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "reports": [
+    {
+      "dataset": "sultanahmet-eminonu.json",
+      "totalRecords": 10,
+      "verifiedCoordinates": 3,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 7,
+      "autoRouteEligible": 3,
+      "missingCost": 10,
+      "missingVisitDuration": 7,
+      "missingOpeningHours": 8,
+      "categoryDistribution": {
+        "historical": 3,
+        "museum": 3,
+        "palace": 1,
+        "park": 1,
+        "cafe": 1,
+        "viewpoint": 1
+      }
+    },
+    {
+      "dataset": "kadikoy-moda.json",
+      "totalRecords": 16,
+      "verifiedCoordinates": 0,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 16,
+      "autoRouteEligible": 0,
+      "missingCost": 15,
+      "missingVisitDuration": 13,
+      "missingOpeningHours": 13,
+      "categoryDistribution": {
+        "viewpoint": 1,
+        "unknown": 2,
+        "restaurant": 2,
+        "cultural": 3,
+        "museum": 5,
+        "cafe": 2,
+        "park": 1
+      }
+    },
+    {
+      "dataset": "karakoy-galata-taksim.json",
+      "totalRecords": 12,
+      "verifiedCoordinates": 0,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 12,
+      "autoRouteEligible": 0,
+      "missingCost": 11,
+      "missingVisitDuration": 11,
+      "missingOpeningHours": 9,
+      "categoryDistribution": {
+        "viewpoint": 1,
+        "museum": 3,
+        "unknown": 3,
+        "historical": 1,
+        "cafe": 2,
+        "restaurant": 1,
+        "cultural": 1
+      }
+    },
+    {
+      "dataset": "ortakoy-bebek.json",
+      "totalRecords": 9,
+      "verifiedCoordinates": 0,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 9,
+      "autoRouteEligible": 0,
+      "missingCost": 9,
+      "missingVisitDuration": 8,
+      "missingOpeningHours": 8,
+      "categoryDistribution": {
+        "viewpoint": 2,
+        "historical": 2,
+        "restaurant": 1,
+        "cafe": 2,
+        "park": 1,
+        "museum": 1
+      }
+    },
+    {
+      "dataset": "uskudar-kuzguncuk.json",
+      "totalRecords": 9,
+      "verifiedCoordinates": 0,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 9,
+      "autoRouteEligible": 0,
+      "missingCost": 9,
+      "missingVisitDuration": 8,
+      "missingOpeningHours": 8,
+      "categoryDistribution": {
+        "viewpoint": 1,
+        "historical": 4,
+        "cafe": 2,
+        "museum": 1,
+        "park": 1
+      }
+    },
+    {
+      "dataset": "fener-balat-eyup-seed.json",
+      "totalRecords": 7,
+      "verifiedCoordinates": 0,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 7,
+      "autoRouteEligible": 0,
+      "missingCost": 6,
+      "missingVisitDuration": 6,
+      "missingOpeningHours": 7,
+      "categoryDistribution": {
+        "viewpoint": 1,
+        "historical": 5,
+        "cafe": 1
+      }
+    },
+    {
+      "dataset": "fener-balat-eyup-venues.json",
+      "totalRecords": 10,
+      "verifiedCoordinates": 10,
+      "approximateCoordinates": 0,
+      "unknownCoordinates": 0,
+      "autoRouteEligible": 10,
+      "missingCost": 0,
+      "missingVisitDuration": 10,
+      "missingOpeningHours": 3,
+      "categoryDistribution": {
+        "cafe": 5,
+        "historical": 2,
+        "restaurant": 3
+      }
+    }
+  ]
+}

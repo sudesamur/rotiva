@@ -1,0 +1,887 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "karakoy-galata-taksim-seed-data.json",
+  "places": [
+    {
+      "id": "karakoy-ferry-terminal",
+      "name": "Karaköy İskelesi ve Rıhtım",
+      "region": "karakoy-galata-taksim",
+      "category": "viewpoint",
+      "type": "transport_hub",
+      "tags": [
+        "başlangıç-noktası",
+        "ulaşım"
+      ],
+      "coordinates": {
+        "lat": 41.0247,
+        "lng": 28.978
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Vapurla varış veya ayrılış",
+          "durationMinutes": 20,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "ulaşım",
+            "boğaz",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Rıhtım fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "salt-galata",
+      "name": "SALT Galata",
+      "region": "karakoy-galata-taksim",
+      "category": "museum",
+      "type": "art_research_museum",
+      "tags": [
+        "müze",
+        "ücretsiz",
+        "yağmurlu-gün",
+        "kahve"
+      ],
+      "coordinates": {
+        "lat": 41.0238,
+        "lng": 28.9755
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sergi ve Osmanlı Bankası Müzesi koleksiyonu gezisi",
+          "durationMinutes": 60,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "sergi",
+            "ücretsiz",
+            "kapalı-mekân"
+          ]
+        },
+        {
+          "name": "Haliç manzarası",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Kafe veya kitabevi molası",
+          "durationMinutes": 40,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "kitap",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Salı–Cumartesi 11:00–19:00; Pazar 11:00–18:00; Pazartesi kapalı.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.saltonline.org/tr/42"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kamondo-stairs",
+      "name": "Kamondo Merdivenleri",
+      "region": "karakoy-galata-taksim",
+      "category": "unknown",
+      "type": "architectural_landmark",
+      "tags": [
+        "ücretsiz",
+        "fotoğraf",
+        "kısa-durak"
+      ],
+      "coordinates": {
+        "lat": 41.0233,
+        "lng": 28.975
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Mimari ve sokak fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "mimari",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": 15,
+      "costTRY": 0,
+      "costMinTRY": 0,
+      "costMaxTRY": 0,
+      "costRangeTRY": null,
+      "costConfidence": "verified",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "galata-tower",
+      "name": "Galata Kulesi",
+      "region": "karakoy-galata-taksim",
+      "category": "museum",
+      "type": "museum_viewpoint",
+      "tags": [
+        "müze",
+        "manzara",
+        "tarihi",
+        "popüler"
+      ],
+      "coordinates": {
+        "lat": 41.0257,
+        "lng": 28.9741
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Kule müzesi ve seyir terası",
+          "durationMinutes": 75,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "manzara",
+            "fotoğraf",
+            "rezervasyon-önerilir"
+          ]
+        },
+        {
+          "name": "Galata sokaklarında fotoğraf yürüyüşü",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "yürüyüş"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Her gün 08:30–18:30; gündüz gişesi 18:14'te kapanır. Gece müzeciliği 18:30–23:00.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/muze-detay?DistId=MRK&SectionId=GLT04",
+          "https://muze.gov.tr/urun-ekle?catalogNo=WEB-SAG03-87-009"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "galata-neighborhood",
+      "name": "Galata Sokakları",
+      "region": "karakoy-galata-taksim",
+      "category": "historical",
+      "type": "neighborhood",
+      "tags": [
+        "kahve",
+        "alışveriş",
+        "fotoğraf"
+      ],
+      "coordinates": {
+        "lat": 41.0268,
+        "lng": 28.973
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihi sokaklarda yürüyüş",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "tarihi"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "dinlenme"
+          ]
+        },
+        {
+          "name": "Butik ve tasarım dükkânları gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "alışveriş",
+            "tasarım",
+            "yürüyüş"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "istanbul-modern",
+      "name": "İstanbul Modern",
+      "region": "karakoy-galata-taksim",
+      "category": "museum",
+      "type": "art_museum",
+      "tags": [
+        "müze",
+        "sanat",
+        "yağmurlu-gün"
+      ],
+      "coordinates": {
+        "lat": 41.0257,
+        "lng": 28.9802
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Modern sanat müzesi gezisi",
+          "durationMinutes": 120,
+          "costTRY": 230,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "modern-sanat",
+            "kapalı-mekân"
+          ]
+        },
+        {
+          "name": "Sergi turu",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "rehberli-tur",
+            "sanat"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://interaktif.istanbulmodern.org/tr/ziyaret/ziyaret-saatleri-ve-ucretler_17.html"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "galataport-waterfront",
+      "name": "Galataport Sahili",
+      "region": "karakoy-galata-taksim",
+      "category": "cafe",
+      "type": "waterfront_district",
+      "tags": [
+        "manzara",
+        "yeme-içme",
+        "akşamüstü"
+      ],
+      "coordinates": {
+        "lat": 41.0243,
+        "lng": 28.9813
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Boğaz yürüyüşü ve fotoğraf",
+          "durationMinutes": 40,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Öğle veya akşam yemeği",
+          "durationMinutes": 75,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "yemek",
+            "akşam",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "galata-bridge",
+      "name": "Galata Köprüsü",
+      "region": "karakoy-galata-taksim",
+      "category": "restaurant",
+      "type": "bridge_landmark",
+      "tags": [
+        "ücretsiz",
+        "manzara",
+        "yerel-yemek"
+      ],
+      "coordinates": {
+        "lat": 41.0205,
+        "lng": 28.9706
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Köprüde yürüyüş ve Haliç fotoğrafı",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Balık ekmek veya sokak lezzeti",
+          "durationMinutes": 35,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "yemek",
+            "sokak-lezzeti",
+            "yerel"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "istiklal-avenue",
+      "name": "İstiklal Caddesi",
+      "region": "karakoy-galata-taksim",
+      "category": "cafe",
+      "type": "pedestrian_avenue",
+      "tags": [
+        "merkez",
+        "alışveriş",
+        "yeme-içme"
+      ],
+      "coordinates": {
+        "lat": 41.0332,
+        "lng": 28.9783
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Cadde yürüyüşü",
+          "durationMinutes": 60,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "şehir-deneyimi"
+          ]
+        },
+        {
+          "name": "Alışveriş veya kitabevi gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "alışveriş",
+            "kitap",
+            "şehir-deneyimi"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "salt-beyoglu",
+      "name": "SALT Beyoğlu",
+      "region": "karakoy-galata-taksim",
+      "category": "cultural",
+      "type": "art_center",
+      "tags": [
+        "sanat",
+        "ücretsiz",
+        "yağmurlu-gün"
+      ],
+      "coordinates": {
+        "lat": 41.0313,
+        "lng": 28.9768
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sergi veya program gezisi",
+          "durationMinutes": 60,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "sergi",
+            "ücretsiz",
+            "kapalı-mekân",
+            "sanat"
+          ]
+        },
+        {
+          "name": "Kitabevi ve kısa mola",
+          "durationMinutes": 35,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kitap",
+            "kahve",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Salı–Cumartesi 11:00–19:00; Pazar 11:00–18:00; Pazartesi kapalı.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.saltonline.org/tr/43"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "taksim-square",
+      "name": "Taksim Meydanı",
+      "region": "karakoy-galata-taksim",
+      "category": "unknown",
+      "type": "city_square",
+      "tags": [
+        "merkez",
+        "ulaşım",
+        "başlangıç-noktası"
+      ],
+      "coordinates": {
+        "lat": 41.037,
+        "lng": 28.985
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Meydan ve Cumhuriyet Anıtı fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "şehir-deneyimi"
+          ]
+        },
+        {
+          "name": "Rota başlangıcı veya bitişi",
+          "durationMinutes": 10,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ulaşım",
+            "başlangıç-noktası"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "asmalimescit",
+      "name": "Asmalımescit çevresi",
+      "region": "karakoy-galata-taksim",
+      "category": "unknown",
+      "type": "food_nightlife_district",
+      "tags": [
+        "akşam-rotası",
+        "yeme-içme",
+        "gece-hayatı"
+      ],
+      "coordinates": {
+        "lat": 41.031,
+        "lng": 28.9778
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Akşam yemeği",
+          "durationMinutes": 80,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "akşam-yemeği",
+            "sosyal",
+            "gece"
+          ]
+        },
+        {
+          "name": "Bar veya canlı müzik",
+          "durationMinutes": 120,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "gece-hayatı",
+            "müzik",
+            "18+"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

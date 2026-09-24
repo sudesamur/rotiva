@@ -1,0 +1,167 @@
+{
+  "dataset": "Karaköy–Galata–Taksim: mekân ve aktivite başlangıç verisi",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "currency": "TRY",
+  "scope": "Günlük gezi rotası üretimi için kürasyon katmanı. Yeme-içme aralıkları editoryal tahmindir; güncel menü fiyatı değildir.",
+  "places": [
+    {
+      "id": "karakoy-ferry-terminal",
+      "name": "Karaköy İskelesi ve Rıhtım",
+      "type": "transport_hub",
+      "coordinates": { "lat": 41.0247, "lng": 28.9780 },
+      "activities": [
+        { "name": "Vapurla varış veya ayrılış", "durationMinutes": 20, "costTRY": null, "costConfidence": "operator_tariff_required", "tags": ["ulaşım", "boğaz", "manzara"] },
+        { "name": "Rıhtım fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "manzara"] }
+      ],
+      "tags": ["başlangıç-noktası", "ulaşım"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "salt-galata",
+      "name": "SALT Galata",
+      "type": "art_research_museum",
+      "coordinates": { "lat": 41.0238, "lng": 28.9755 },
+      "openingHours": "Salı–Cumartesi 11:00–19:00; Pazar 11:00–18:00; Pazartesi kapalı.",
+      "activities": [
+        { "name": "Sergi ve Osmanlı Bankası Müzesi koleksiyonu gezisi", "durationMinutes": 60, "costTRY": 0, "costConfidence": "official", "tags": ["müze", "sergi", "ücretsiz", "kapalı-mekân"] },
+        { "name": "Haliç manzarası", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] },
+        { "name": "Kafe veya kitabevi molası", "durationMinutes": 40, "costRangeTRY": [180, 600], "costConfidence": "editorial_estimate", "tags": ["kahve", "kitap", "dinlenme"] }
+      ],
+      "tags": ["müze", "ücretsiz", "yağmurlu-gün", "kahve"],
+      "sources": ["https://www.saltonline.org/tr/42"]
+    },
+    {
+      "id": "kamondo-stairs",
+      "name": "Kamondo Merdivenleri",
+      "type": "architectural_landmark",
+      "coordinates": { "lat": 41.0233, "lng": 28.9750 },
+      "activities": [
+        { "name": "Mimari ve sokak fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "mimari", "fotoğraf"] }
+      ],
+      "tags": ["ücretsiz", "fotoğraf", "kısa-durak"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "galata-tower",
+      "name": "Galata Kulesi",
+      "type": "museum_viewpoint",
+      "coordinates": { "lat": 41.0257, "lng": 28.9741 },
+      "openingHours": "Her gün 08:30–18:30; gündüz gişesi 18:14'te kapanır. Gece müzeciliği 18:30–23:00.",
+      "activities": [
+        { "name": "Kule müzesi ve seyir terası", "durationMinutes": 75, "costTRY": null, "foreignVisitorCostEUR": 30, "costConfidence": "official", "tags": ["müze", "manzara", "fotoğraf", "rezervasyon-önerilir"] },
+        { "name": "Galata sokaklarında fotoğraf yürüyüşü", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "yürüyüş"] }
+      ],
+      "tags": ["müze", "manzara", "tarihi", "popüler"],
+      "sources": ["https://muze.gov.tr/muze-detay?DistId=MRK&SectionId=GLT04", "https://muze.gov.tr/urun-ekle?catalogNo=WEB-SAG03-87-009"],
+      "verificationStatus": "Yerli ziyaretçi için MüzeKart kuralları, yabancı ziyaretçi için e-bilet ücreti rota üretiminden önce güncellenmeli."
+    },
+    {
+      "id": "galata-neighborhood",
+      "name": "Galata Sokakları",
+      "type": "neighborhood",
+      "coordinates": { "lat": 41.0268, "lng": 28.9730 },
+      "activities": [
+        { "name": "Tarihi sokaklarda yürüyüş", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "tarihi"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [200, 600], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "dinlenme"] },
+        { "name": "Butik ve tasarım dükkânları gezisi", "durationMinutes": 45, "costRangeTRY": [0, 1500], "costConfidence": "activity_dependent", "tags": ["alışveriş", "tasarım", "yürüyüş"] }
+      ],
+      "tags": ["kahve", "alışveriş", "fotoğraf"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "istanbul-modern",
+      "name": "İstanbul Modern",
+      "type": "art_museum",
+      "coordinates": { "lat": 41.0257, "lng": 28.9802 },
+      "openingHours": null,
+      "activities": [
+        { "name": "Modern sanat müzesi gezisi", "durationMinutes": 120, "costTRY": 230, "discountedCostTRY": 150, "foreignVisitorCostTRY": 500, "costConfidence": "official", "tags": ["müze", "modern-sanat", "kapalı-mekân"] },
+        { "name": "Sergi turu", "durationMinutes": 60, "costTRY": null, "costConfidence": "event_ticket_required", "tags": ["müze", "rehberli-tur", "sanat"] }
+      ],
+      "tags": ["müze", "sanat", "yağmurlu-gün"],
+      "sources": ["https://interaktif.istanbulmodern.org/tr/ziyaret/ziyaret-saatleri-ve-ucretler_17.html"],
+      "verificationStatus": "Haftalık ziyaret saatleri ve sergi programı rota önerilmeden önce resmî siteden kontrol edilmeli."
+    },
+    {
+      "id": "galataport-waterfront",
+      "name": "Galataport Sahili",
+      "type": "waterfront_district",
+      "coordinates": { "lat": 41.0243, "lng": 28.9813 },
+      "activities": [
+        { "name": "Boğaz yürüyüşü ve fotoğraf", "durationMinutes": 40, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "manzara"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [250, 750], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "manzara"] },
+        { "name": "Öğle veya akşam yemeği", "durationMinutes": 75, "costRangeTRY": [600, 2000], "costConfidence": "editorial_estimate", "tags": ["yemek", "akşam", "manzara"] }
+      ],
+      "tags": ["manzara", "yeme-içme", "akşamüstü"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "galata-bridge",
+      "name": "Galata Köprüsü",
+      "type": "bridge_landmark",
+      "coordinates": { "lat": 41.0205, "lng": 28.9706 },
+      "activities": [
+        { "name": "Köprüde yürüyüş ve Haliç fotoğrafı", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "fotoğraf"] },
+        { "name": "Balık ekmek veya sokak lezzeti", "durationMinutes": 35, "costRangeTRY": [200, 500], "costConfidence": "editorial_estimate", "tags": ["yemek", "sokak-lezzeti", "yerel"] }
+      ],
+      "tags": ["ücretsiz", "manzara", "yerel-yemek"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "istiklal-avenue",
+      "name": "İstiklal Caddesi",
+      "type": "pedestrian_avenue",
+      "coordinates": { "lat": 41.0332, "lng": 28.9783 },
+      "activities": [
+        { "name": "Cadde yürüyüşü", "durationMinutes": 60, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "şehir-deneyimi"] },
+        { "name": "Alışveriş veya kitabevi gezisi", "durationMinutes": 45, "costRangeTRY": [0, 2000], "costConfidence": "activity_dependent", "tags": ["alışveriş", "kitap", "şehir-deneyimi"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [200, 600], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "dinlenme"] }
+      ],
+      "tags": ["merkez", "alışveriş", "yeme-içme"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "salt-beyoglu",
+      "name": "SALT Beyoğlu",
+      "type": "art_center",
+      "coordinates": { "lat": 41.0313, "lng": 28.9768 },
+      "openingHours": "Salı–Cumartesi 11:00–19:00; Pazar 11:00–18:00; Pazartesi kapalı.",
+      "activities": [
+        { "name": "Sergi veya program gezisi", "durationMinutes": 60, "costTRY": 0, "costConfidence": "official", "tags": ["sergi", "ücretsiz", "kapalı-mekân", "sanat"] },
+        { "name": "Kitabevi ve kısa mola", "durationMinutes": 35, "costRangeTRY": [0, 400], "costConfidence": "editorial_estimate", "tags": ["kitap", "kahve", "dinlenme"] }
+      ],
+      "tags": ["sanat", "ücretsiz", "yağmurlu-gün"],
+      "sources": ["https://www.saltonline.org/tr/43"]
+    },
+    {
+      "id": "taksim-square",
+      "name": "Taksim Meydanı",
+      "type": "city_square",
+      "coordinates": { "lat": 41.0370, "lng": 28.9850 },
+      "activities": [
+        { "name": "Meydan ve Cumhuriyet Anıtı fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "şehir-deneyimi"] },
+        { "name": "Rota başlangıcı veya bitişi", "durationMinutes": 10, "costTRY": 0, "tags": ["ulaşım", "başlangıç-noktası"] }
+      ],
+      "tags": ["merkez", "ulaşım", "başlangıç-noktası"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "asmalimescit",
+      "name": "Asmalımescit çevresi",
+      "type": "food_nightlife_district",
+      "coordinates": { "lat": 41.0310, "lng": 28.9778 },
+      "activities": [
+        { "name": "Akşam yemeği", "durationMinutes": 80, "costRangeTRY": [550, 1800], "costConfidence": "editorial_estimate", "tags": ["akşam-yemeği", "sosyal", "gece"] },
+        { "name": "Bar veya canlı müzik", "durationMinutes": 120, "costRangeTRY": [400, 1800], "costConfidence": "editorial_estimate", "tags": ["gece-hayatı", "müzik", "18+"] }
+      ],
+      "tags": ["akşam-rotası", "yeme-içme", "gece-hayatı"],
+      "sources": ["https://www.openstreetmap.org/"]
+    }
+  ],
+  "dataRules": {
+    "foodAndCoffeePrices": "Güncel işletme menüsü veya yetkili API olmadan kesin fiyat gösterme; tahmini aralık etiketi kullan.",
+    "openingHours": "Rota üretmeden hemen önce resmî veya dinamik kaynaktan yeniden doğrula.",
+    "activitySelection": "Varsayılan olarak her mekândan bir aktivite seç; aynı mekânda birden çok aktivite ancak ortak ziyaret olarak işaretlenirse birleştir."
+  }
+}

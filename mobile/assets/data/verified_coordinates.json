@@ -1,0 +1,105 @@
+{
+  "source": "outputs/normalized via src/planner/region-datasets.js",
+  "snapshotDate": "2026-09-24",
+  "regions": {
+    "sultanahmet-eminonu": {
+      "turkish-islamic-arts-museum": {
+        "coordinates": {
+          "lat": 41.0062236,
+          "lng": 28.9747201
+        },
+        "geocodeStatus": "verified"
+      },
+      "topkapi-palace": {
+        "coordinates": {
+          "lat": 41.0115195,
+          "lng": 28.9833789
+        },
+        "geocodeStatus": "verified"
+      },
+      "istanbul-archaeological-museums": {
+        "coordinates": {
+          "lat": 41.0116855,
+          "lng": 28.9813305
+        },
+        "geocodeStatus": "verified"
+      }
+    },
+    "kadikoy-moda": {},
+    "karakoy-galata-taksim": {},
+    "ortakoy-bebek": {},
+    "uskudar-kuzguncuk": {},
+    "fener-balat": {
+      "ferm-caffee-bakery-fener": {
+        "coordinates": {
+          "lat": 41.0298087,
+          "lng": 28.9512781
+        },
+        "geocodeStatus": "verified"
+      },
+      "rincon-coffee-balat": {
+        "coordinates": {
+          "lat": 41.0323334,
+          "lng": 28.9471728
+        },
+        "geocodeStatus": "verified"
+      },
+      "nava-house-balat": {
+        "coordinates": {
+          "lat": 41.0321905,
+          "lng": 28.9484943
+        },
+        "geocodeStatus": "verified"
+      },
+      "balat-antik-cafe": {
+        "coordinates": {
+          "lat": 41.0301352,
+          "lng": 28.9498876
+        },
+        "geocodeStatus": "verified"
+      },
+      "primi-balat": {
+        "coordinates": {
+          "lat": 41.0299294,
+          "lng": 28.9511219
+        },
+        "geocodeStatus": "verified"
+      },
+      "tantuni-istanbul-balat": {
+        "coordinates": {
+          "lat": 41.0330473,
+          "lng": 28.9473732
+        },
+        "geocodeStatus": "verified"
+      },
+      "balat-manticisi": {
+        "coordinates": {
+          "lat": 41.0330622,
+          "lng": 28.9461013
+        },
+        "geocodeStatus": "verified"
+      },
+      "agora-meyhanesi-balat": {
+        "coordinates": {
+          "lat": 41.0335803,
+          "lng": 28.9468056
+        },
+        "geocodeStatus": "verified"
+      },
+      "pierre-loti-tarihi-kahve": {
+        "coordinates": {
+          "lat": 41.0537468,
+          "lng": 28.9331579
+        },
+        "geocodeStatus": "verified"
+      },
+      "park-karadeniz-eyupsultan": {
+        "coordinates": {
+          "lat": 41.0413125,
+          "lng": 28.9274375
+        },
+        "geocodeStatus": "verified"
+      }
+    }
+  }
+}

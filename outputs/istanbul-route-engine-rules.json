@@ -1,0 +1,45 @@
+{
+  "dataset": "İstanbul rota motoru ortak seçim kuralları",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-04",
+  "purpose": "Bölgesel şablonlar arasından kullanıcıya güvenli, bütçeye uygun ve uygulanabilir günlük rota seçmek.",
+  "venueEligibility": {
+    "autoRoute": {
+      "required": ["coordinates", "geocodeStatus=verified", "autoRouteEligible=true"],
+      "rule": "Yalnız bu koşulları sağlayan mekanlar otomatik sıralanabilir ve yol tarifi durağı olarak gösterilebilir."
+    },
+    "reviewBeforeRoute": {
+      "statuses": ["directory_verified"],
+      "rule": "Mekan listede gösterilebilir; canlı harita ve işletme durumu doğrulanmadan otomatik rotaya eklenmez."
+    },
+    "manualOrAreaOnly": {
+      "statuses": ["address_verified", "area_required", "unresolved"],
+      "rule": "Bu kayıtlar haritada öneri/alan olarak gösterilebilir, ancak kesin yol tarifi noktası veya otomatik durak olmaz."
+    }
+  },
+  "selectionOrder": [
+    "Girdinin zorunlu alanlarını doğrula.",
+    "Tarih, saat, hava, erişilebilirlik ve yaş filtresine uymayan aktiviteleri ele.",
+    "Mekanlarda autoRoute uygunluk kuralını uygula.",
+    "Aktivite ve mekan etiketlerini ilgi alanlarıyla puanla.",
+    "Süreye yürüyüş/toplu taşıma payını ekle; bütçe üst sınırını aşan adayları ele.",
+    "Uzun rotada öğle yemeği ve uygun olduğunda kahve/tatlı veya akşam yemeği durağı ekle.",
+    "Maliyet veya açık saat için canlı doğrulama gereken her durakta uyarı üret."
+  ],
+  "budget": {
+    "use": "Tahmini aralıklarda alt değer iyimser, üst değer güvenli planlama sınırıdır.",
+    "rule": "Toplam üst maliyet, ulaşım için ayrılan pay ile birlikte kullanıcının bütçesini aşmamalı.",
+    "unknownPrice": "costTRY null veya current_tariff_required ise kesin toplam gösterme; ayrı uyarı üret."
+  },
+  "timeAndWeather": {
+    "mealWindows": {"lunch": ["11:30", "15:30"], "afternoonBreak": ["16:00", "18:30"], "dinnerAfter": "18:30"},
+    "rain": "Açık hava ağırlıklı adayları geriye al; müze, çarşı, kahve ve kapalı kültür duraklarını önceliklendir.",
+    "longWalk": "walkingPreference düşükse, 45 dakikayı aşan yürüyüş bacakları için toplu taşıma alternatifi veya rota sadeleştirmesi öner."
+  },
+  "outputWarnings": [
+    "Tahmini bütçe; kesin fiyat değildir.",
+    "Açık saatler ve işletmenin faal olduğu rota oluşturma anında kontrol edilmelidir.",
+    "Bilet, vapur, teleferik ve ulaşım maliyetleri için güncel işletme tarifesi gerekir.",
+    "İbadet alanları, müzeler ve etkinliklerde güncel ziyaret/rezervasyon koşulları kontrol edilmelidir."
+  ]
+}

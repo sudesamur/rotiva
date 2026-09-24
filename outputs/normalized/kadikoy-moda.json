@@ -1,0 +1,1138 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "kadikoy-moda-seed-data.json",
+  "places": [
+    {
+      "id": "kadikoy-ferry-terminal",
+      "name": "Kadıköy İskelesi ve Rıhtım",
+      "region": "kadikoy-moda",
+      "category": "viewpoint",
+      "type": "transport_hub",
+      "tags": [
+        "başlangıç-noktası",
+        "ulaşım"
+      ],
+      "coordinates": {
+        "lat": 40.9907,
+        "lng": 29.0249
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Vapurla varış veya ayrılış",
+          "durationMinutes": 20,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "ulaşım",
+            "boğaz",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Rıhtımda kısa manzara molası",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kadikoy-bull-statue",
+      "name": "Kadıköy Boğa Heykeli",
+      "region": "kadikoy-moda",
+      "category": "unknown",
+      "type": "landmark",
+      "tags": [
+        "merkez",
+        "buluşma"
+      ],
+      "coordinates": {
+        "lat": 40.9896,
+        "lng": 29.0328
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Buluşma ve fotoğraf",
+          "durationMinutes": 10,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "buluşma"
+          ]
+        },
+        {
+          "name": "Bahariye Caddesi yürüyüşüne başlama",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "alışveriş"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kadikoy-market",
+      "name": "Kadıköy Çarşı ve Balık Pazarı",
+      "region": "kadikoy-moda",
+      "category": "restaurant",
+      "type": "food_market_district",
+      "tags": [
+        "yemek",
+        "çarşı",
+        "yağmurlu-gün"
+      ],
+      "coordinates": {
+        "lat": 40.9909,
+        "lng": 29.0265
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Pazar ve sokak lezzeti gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "yeme-içme",
+            "yerel",
+            "yürüyüş"
+          ]
+        },
+        {
+          "name": "Ekonomik öğle yemeği",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "öğle-yemeği",
+            "ekonomik",
+            "yerel"
+          ]
+        },
+        {
+          "name": "Gurme alışveriş",
+          "durationMinutes": 30,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "alışveriş",
+            "yerel-ürün"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "sureyya-opera-house",
+      "name": "Süreyya Operası",
+      "region": "kadikoy-moda",
+      "category": "cultural",
+      "type": "performing_arts",
+      "tags": [
+        "kültür-sanat",
+        "akşam-rotası"
+      ],
+      "coordinates": {
+        "lat": 40.9889,
+        "lng": 29.0284
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Dış cephe ve Bahariye Caddesi fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "mimari",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Etkinlik izleme",
+          "durationMinutes": 120,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "kültür-sanat",
+            "akşam",
+            "rezervasyon"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "haldun-taner-stage",
+      "name": "Haldun Taner Sahnesi çevresi",
+      "region": "kadikoy-moda",
+      "category": "cultural",
+      "type": "cultural_landmark",
+      "tags": [
+        "kültür-sanat",
+        "merkez"
+      ],
+      "coordinates": {
+        "lat": 40.9911,
+        "lng": 29.0261
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihi bina ve meydan fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "mimari"
+          ]
+        },
+        {
+          "name": "Tiyatro etkinliği",
+          "durationMinutes": 120,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "kültür-sanat",
+            "akşam",
+            "rezervasyon"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://sehirplanlama.ibb.istanbul/kadikoy-arsivi-projeler/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "yeldegirmeni",
+      "name": "Yeldeğirmeni Mahallesi",
+      "region": "kadikoy-moda",
+      "category": "cultural",
+      "type": "neighborhood",
+      "tags": [
+        "sanat",
+        "kahve",
+        "yağmurlu-gün"
+      ],
+      "coordinates": {
+        "lat": 40.9978,
+        "lng": 29.029
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sokak sanatı ve mimari yürüyüşü",
+          "durationMinutes": 50,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "sokak-sanatı",
+            "fotoğraf",
+            "yürüyüş"
+          ]
+        },
+        {
+          "name": "Kahve molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "dinlenme",
+            "çalışma"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "baris-manco-house",
+      "name": "Barış Manço Evi",
+      "region": "kadikoy-moda",
+      "category": "museum",
+      "type": "museum",
+      "tags": [
+        "müze",
+        "kültür",
+        "rezervasyon-gerekli"
+      ],
+      "coordinates": {
+        "lat": 40.9818,
+        "lng": 29.0273
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Müze gezisi",
+          "durationMinutes": 60,
+          "costTRY": 82,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "müzik",
+            "kültür",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": 60,
+      "costTRY": 82,
+      "costMinTRY": 82,
+      "costMaxTRY": 82,
+      "costRangeTRY": null,
+      "costConfidence": "verified",
+      "openingHours": "Salı–Pazar 09:00–16:00; Pazartesi, resmî tatiller ve bayramlarda kapalı.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://barismanco.kadikoy.bel.tr/iletisim"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "hafiza-kadikoy-city-museum",
+      "name": "Hafıza Kadıköy Kent Müzesi",
+      "region": "kadikoy-moda",
+      "category": "museum",
+      "type": "city_museum",
+      "tags": [
+        "müze",
+        "yerel-tarih",
+        "merkez"
+      ],
+      "coordinates": {
+        "lat": 40.9912,
+        "lng": 29.0259
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Kadıköy kent hafızası sergisini gezme",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "yerel-tarih",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": 45,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://kadikoy.bel.tr/tr/mudurlukler/kutuphane-ve-muze-mudurlugu"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "muze-gazhane",
+      "name": "Müze Gazhane",
+      "region": "kadikoy-moda",
+      "category": "museum",
+      "type": "museum_campus",
+      "tags": [
+        "müze",
+        "kültür-sanat",
+        "yağmurlu-gün",
+        "çocukla-uygun"
+      ],
+      "coordinates": {
+        "lat": 40.9963,
+        "lng": 29.0407
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "İklim Müzesi gezisi",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "iklim",
+            "kapalı-mekân"
+          ]
+        },
+        {
+          "name": "Karikatür ve Mizah Müzesi gezisi",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "karikatür",
+            "kapalı-mekân"
+          ]
+        },
+        {
+          "name": "Galeri veya güncel sergi gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "sergi",
+            "kültür-sanat",
+            "kapalı-mekân"
+          ]
+        },
+        {
+          "name": "Yerleşkede kahve veya yemek molası",
+          "durationMinutes": 50,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "yemek",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "İklim Müzesi, Çocuk Bilim Merkezi, Karikatür ve Mizah Müzesi ve Galeri Gazhane: Pazartesi hariç 10:00–18:00.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muzegazhane.istanbul/ziyaret/",
+          "https://kadikoy.bel.tr/tr/haber-detay/tarihi-hasanpasa-gazhanesi-muze-gazhane-olarak-hayat-buldu"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "haldun-taner-museum-house",
+      "name": "Haldun Taner Müze Evi",
+      "region": "kadikoy-moda",
+      "category": "museum",
+      "type": "literary_house_museum",
+      "tags": [
+        "müze",
+        "edebiyat",
+        "Kadıköy-genişletilmiş"
+      ],
+      "coordinates": null,
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Edebiyat ve tiyatro odaklı müze gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "edebiyat",
+            "tiyatro",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": 45,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://kadikoy.bel.tr/tr/mudurlukler/kutuphane-ve-muze-mudurlugu",
+          "https://www.kadikoy.bel.tr/en/news/haldun-taner-muze-evi-acildi-5155"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "istanbul-toy-museum",
+      "name": "İstanbul Oyuncak Müzesi",
+      "region": "kadikoy-moda",
+      "category": "museum",
+      "type": "museum",
+      "tags": [
+        "müze",
+        "çocukla-uygun",
+        "aile",
+        "Kadıköy-genişletilmiş"
+      ],
+      "coordinates": {
+        "lat": 40.97,
+        "lng": 29.0733
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Oyuncak müzesi gezisi",
+          "durationMinutes": 90,
+          "costTRY": 350,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "çocukla-uygun",
+            "nostalji",
+            "kapalı-mekân"
+          ]
+        },
+        {
+          "name": "Atölye veya çocuk tiyatrosu",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "çocuk",
+            "atölye",
+            "etkinlik"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Pazartesi kapalı; hafta içi 10:00–18:00, hafta sonu 10:00–18:30.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://istanbuloyuncakmuzesi.com/pages/okul-ziyaretleri"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "moda-street",
+      "name": "Moda Caddesi",
+      "region": "kadikoy-moda",
+      "category": "cafe",
+      "type": "street_district",
+      "tags": [
+        "kahve",
+        "alışveriş",
+        "akşamüstü"
+      ],
+      "coordinates": {
+        "lat": 40.9838,
+        "lng": 29.028
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Butik ve plakçı gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "alışveriş",
+            "müzik",
+            "yürüyüş"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://sehirplanlama.ibb.istanbul/caferaga-mahallesi/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "moda-pier",
+      "name": "Tarihi Moda İskelesi",
+      "region": "kadikoy-moda",
+      "category": "cafe",
+      "type": "pier_landmark",
+      "tags": [
+        "manzara",
+        "kahve",
+        "gün-batımı"
+      ],
+      "coordinates": {
+        "lat": 40.9828,
+        "lng": 29.0251
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Deniz manzarası ve fotoğraf",
+          "durationMinutes": 25,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "İskele çevresinde kahve molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "manzara",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://kadikoy.bel.tr/tr/fotograflarla-kadikoy"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "moda-coast-park",
+      "name": "Moda Sahili ve Moda Parkı",
+      "region": "kadikoy-moda",
+      "category": "restaurant",
+      "type": "park_waterfront",
+      "tags": [
+        "ücretsiz",
+        "açık-hava",
+        "manzara",
+        "gün-batımı"
+      ],
+      "coordinates": {
+        "lat": 40.9797,
+        "lng": 29.0228
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sahil yürüyüşü",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "deniz"
+          ]
+        },
+        {
+          "name": "Gün batımı izleme",
+          "durationMinutes": 35,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "gün-batımı",
+            "romantik",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Piknik",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "açık-hava",
+            "arkadaş-grubu",
+            "yemek"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://sehirplanlama.ibb.istanbul/caferaga-mahallesi/",
+          "https://kadikoyapi.kadikoy.bel.tr/28d612a883874d09ae6a673f3b4d3e73.pdf"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "yogurtcu-park",
+      "name": "Yoğurtçu Parkı",
+      "region": "kadikoy-moda",
+      "category": "park",
+      "type": "park",
+      "tags": [
+        "ücretsiz",
+        "spor",
+        "açık-hava"
+      ],
+      "coordinates": {
+        "lat": 40.9848,
+        "lng": 29.0318
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Parkta dinlenme",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "dinlenme",
+            "yeşil-alan"
+          ]
+        },
+        {
+          "name": "Koşu veya yürüyüş",
+          "durationMinutes": 40,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "spor",
+            "açık-hava"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kadife-street",
+      "name": "Kadife Sokak çevresi",
+      "region": "kadikoy-moda",
+      "category": "unknown",
+      "type": "nightlife_district",
+      "tags": [
+        "akşam-rotası",
+        "yeme-içme",
+        "gece-hayatı"
+      ],
+      "coordinates": {
+        "lat": 40.9876,
+        "lng": 29.031
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Akşam yemeği",
+          "durationMinutes": 75,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "akşam-yemeği",
+            "gece",
+            "sosyal"
+          ]
+        },
+        {
+          "name": "Canlı müzik veya bar etkinliği",
+          "durationMinutes": 120,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "gece-hayatı",
+            "müzik",
+            "18+"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "currency": "TRY",
+  "scope": "Günlük gezi rotası üretimi için kürasyon katmanı. Yeme-içme aralıkları editoryal tahmindir; güncel menü fiyatı değildir.",
+  "places": [
+    {
+      "id": "ortakoy-square",
+      "name": "Ortaköy Meydanı ve Sahil",
+      "type": "waterfront_square",
+      "coordinates": { "lat": 41.0479, "lng": 29.0277 },
+      "activities": [
+        { "name": "Boğaz ve köprü manzarası", "durationMinutes": 25, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] },
+        { "name": "Meydan ve sahil yürüyüşü", "durationMinutes": 35, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "açık-hava"] }
+      ],
+      "tags": ["başlangıç-noktası", "manzara", "fotoğraf"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "ortakoy-mosque",
+      "name": "Büyük Mecidiye Camii (Ortaköy Camii)",
+      "type": "historic_religious_site",
+      "coordinates": { "lat": 41.0478, "lng": 29.0274 },
+      "activities": [
+        { "name": "Tarihî mimari gezisi", "durationMinutes": 30, "costTRY": 0, "costConfidence": "official", "tags": ["ücretsiz", "tarihi", "mimari"] },
+        { "name": "Cami ve Boğaz fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "manzara"] }
+      ],
+      "tags": ["tarihi", "ücretsiz", "mimari"],
+      "sources": ["https://visit.istanbul/ortakoy-mosque", "https://okuldisiogrenme.eba.gov.tr/mekan-detay/buyuk-mecidiye-camii-8564"],
+      "routeNote": "İbadet saatlerine saygı gösterilerek ziyaret zamanı ayarlanmalı."
+    },
+    {
+      "id": "ortakoy-food-market",
+      "name": "Ortaköy Çarşısı",
+      "type": "food_market_district",
+      "coordinates": { "lat": 41.0490, "lng": 29.0281 },
+      "activities": [
+        { "name": "Kumpir veya sokak lezzeti", "durationMinutes": 45, "costRangeTRY": [250, 650], "costConfidence": "editorial_estimate", "tags": ["yemek", "sokak-lezzeti", "yerel"] },
+        { "name": "El işi ve hediyelik eşya gezisi", "durationMinutes": 40, "costRangeTRY": [0, 1500], "costConfidence": "activity_dependent", "tags": ["alışveriş", "hediyelik", "yerel"] }
+      ],
+      "tags": ["yeme-içme", "alışveriş", "turistik"],
+      "sources": ["https://istanbul.ktb.gov.tr/TR-278800/besiktas-ortakoy---hediyelik-esya.html"]
+    },
+    {
+      "id": "ortakoy-waterfront-cafes",
+      "name": "Ortaköy Sahil Kafe Alanı",
+      "type": "food_waterfront_district",
+      "coordinates": { "lat": 41.0487, "lng": 29.0301 },
+      "activities": [
+        { "name": "Boğaz manzaralı kahvaltı", "durationMinutes": 75, "costRangeTRY": [400, 1200], "costConfidence": "editorial_estimate", "tags": ["kahvaltı", "manzara", "sosyal"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [250, 700], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "manzara"] }
+      ],
+      "tags": ["kahve", "kahvaltı", "manzara"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "kurucesme-waterfront",
+      "name": "Kuruçeşme Sahili",
+      "type": "waterfront",
+      "coordinates": { "lat": 41.0584, "lng": 29.0341 },
+      "activities": [
+        { "name": "Boğaz boyunca yürüyüş", "durationMinutes": 50, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "boğaz"] },
+        { "name": "Manzara fotoğrafı", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "manzara"] }
+      ],
+      "tags": ["ücretsiz", "manzara", "yürüyüş"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "arnavutkoy-neighborhood",
+      "name": "Arnavutköy Sahil ve Sokakları",
+      "type": "historic_neighborhood",
+      "coordinates": { "lat": 41.0672, "lng": 29.0433 },
+      "activities": [
+        { "name": "Tarihî yalılar arasında yürüyüş", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "yürüyüş", "fotoğraf"] },
+        { "name": "Kahve veya öğle yemeği", "durationMinutes": 60, "costRangeTRY": [300, 1200], "costConfidence": "editorial_estimate", "tags": ["kahve", "öğle-yemeği", "manzara"] }
+      ],
+      "tags": ["tarihi", "yeme-içme", "manzara"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "bebek-park",
+      "name": "Bebek Parkı",
+      "type": "park_waterfront",
+      "coordinates": { "lat": 41.0783, "lng": 29.0431 },
+      "activities": [
+        { "name": "Sahil yürüyüşü", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "boğaz"] },
+        { "name": "Parkta dinlenme", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "dinlenme", "yeşil-alan"] },
+        { "name": "Manzara fotoğrafı", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "manzara"] }
+      ],
+      "tags": ["ücretsiz", "yeşil-alan", "manzara"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "bebek-coffee-food-district",
+      "name": "Bebek Sahil Kafe ve Restoran Alanı",
+      "type": "food_waterfront_district",
+      "coordinates": { "lat": 41.0774, "lng": 29.0455 },
+      "activities": [
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [280, 800], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "manzara"] },
+        { "name": "Akşam yemeği", "durationMinutes": 90, "costRangeTRY": [800, 2500], "costConfidence": "editorial_estimate", "tags": ["akşam-yemeği", "manzara", "sosyal"] }
+      ],
+      "tags": ["kahve", "akşam-rotası", "manzara"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "rumeli-fortress",
+      "name": "Rumeli Hisarı",
+      "type": "museum_historic_site",
+      "coordinates": { "lat": 41.0848, "lng": 29.0558 },
+      "openingHours": "Salı–Pazar 09:00–19:00; Pazartesi kapalı. Gişe 18:00'de kapanır.",
+      "activities": [
+        { "name": "Hisar ve Boğaz manzarası gezisi", "durationMinutes": 90, "costTRY": null, "foreignVisitorCostEUR": 6, "costConfidence": "official", "tags": ["müze", "tarihi", "manzara", "açık-hava"] }
+      ],
+      "tags": ["müze", "tarihi", "manzara"],
+      "sources": ["https://muze.gov.tr/muze-detay?distId=MRK&sectionId=HIS01", "https://muze.gov.tr/urun-ekle?catalogNo=WEB-SAG03-87-009"],
+      "verificationStatus": "Yerli ziyaretçi için MüzeKart koşulları, yabancı ziyaretçi için e-bilet ücreti rota önerilmeden önce güncellenmeli."
+    }
+  ],
+  "dataRules": {
+    "foodAndCoffeePrices": "Güncel işletme menüsü veya yetkili API olmadan kesin fiyat gösterme; tahmini aralık etiketi kullan.",
+    "openingHours": "Rota üretmeden hemen önce resmî veya dinamik kaynaktan yeniden doğrula.",
+    "religiousSites": "İbadet saatlerinde ziyaretçi akışına saygı gösterilerek durak zamanı ayarlanmalı."
+  }
+}

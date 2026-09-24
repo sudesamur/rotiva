@@ -1,0 +1,498 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "fener-balat-eyup-seed-data.json",
+  "places": [
+    {
+      "id": "balat-waterfront",
+      "name": "Balat Sahili ve Haliç Yürüyüş Yolu",
+      "region": "fener-balat",
+      "category": "viewpoint",
+      "type": "waterfront",
+      "tags": [
+        "ücretsiz",
+        "manzara",
+        "yürüyüş"
+      ],
+      "coordinates": {
+        "lat": 41.0289,
+        "lng": 28.947
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Haliç boyunca yürüyüş",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Sahil fotoğrafı",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.fatih.bel.tr/tr/main/pages/tarihte-fatih/41"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "balat-historic-streets",
+      "name": "Balat Tarihî Sokakları",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_neighborhood",
+      "tags": [
+        "fotoğraf",
+        "tarihi",
+        "kahve",
+        "düşük-bütçe"
+      ],
+      "coordinates": {
+        "lat": 41.0276,
+        "lng": 28.9487
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Renkli evler ve sokak dokusu yürüyüşü",
+          "durationMinutes": 60,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "yürüyüş",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.fatih.bel.tr/tr/main/news/baskan-turan-balatta-gonullu-turizm-elcileri-/11040"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "fener-historic-streets",
+      "name": "Fener Tarihî Sokakları",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_neighborhood",
+      "tags": [
+        "tarihi",
+        "mimari",
+        "fotoğraf",
+        "kahve"
+      ],
+      "coordinates": {
+        "lat": 41.0295,
+        "lng": 28.953
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Mahalle ve tarihî yapı dış cepheleri gezisi",
+          "durationMinutes": 60,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "mimari",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Yerel kahve molası",
+          "durationMinutes": 40,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.fatih.bel.tr/tr/main/read/dosyalar/?file=118e5ee1c9f546f2a45503be06608dda.pdf"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "fener-greek-patriarchate-exterior",
+      "name": "Fener Rum Patrikhanesi çevresi",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_religious_site",
+      "tags": [
+        "tarihi",
+        "mimari",
+        "kültürel-miras"
+      ],
+      "coordinates": {
+        "lat": 41.0315,
+        "lng": 28.9504
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî çevre ve mimari gözlemi",
+          "durationMinutes": 25,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "mimari"
+          ]
+        }
+      ],
+      "durationMinutes": 25,
+      "costTRY": 0,
+      "costMinTRY": 0,
+      "costMaxTRY": 0,
+      "costRangeTRY": null,
+      "costConfidence": "verified",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.fatih.bel.tr/en/main/pages/fatih-in-history/573"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "ayvansaray-historic-area",
+      "name": "Ayvansaray ve Tarihî Surlar Çevresi",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_area",
+      "tags": [
+        "tarihi",
+        "fotoğraf",
+        "açık-hava"
+      ],
+      "coordinates": {
+        "lat": 41.0382,
+        "lng": 28.9408
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî çevre yürüyüşü",
+          "durationMinutes": 50,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "yürüyüş"
+          ]
+        },
+        {
+          "name": "Mimari fotoğraf",
+          "durationMinutes": 25,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "mimari",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.fatih.bel.tr/tr/main/read/dosyalar/?file=118e5ee1c9f546f2a45503be06608dda.pdf"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "eyup-sultan-mosque",
+      "name": "Eyüp Sultan Camii ve Meydanı",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_religious_site",
+      "tags": [
+        "tarihi",
+        "manevi",
+        "ücretsiz"
+      ],
+      "coordinates": {
+        "lat": 41.0477,
+        "lng": 28.9334
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî ve manevi ziyaret",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "manevi"
+          ]
+        },
+        {
+          "name": "Meydan ve çevre yürüyüşü",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "tarihi"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://kultursanat.eyupsultan.bel.tr/tr/eyupkultursanat/news/dunyanin-dort-bir-yanindan-ziyaretciler-eyups/18588"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "pierre-loti-viewpoint",
+      "name": "Pierre Loti Seyir Terası",
+      "region": "fener-balat",
+      "category": "cafe",
+      "type": "viewpoint_cafe",
+      "tags": [
+        "manzara",
+        "kahve",
+        "fotoğraf",
+        "popüler"
+      ],
+      "coordinates": {
+        "lat": 41.0532,
+        "lng": 28.9339
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Haliç manzarası",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Manzaralı kahve molası",
+          "durationMinutes": 50,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "manzara",
+            "dinlenme"
+          ]
+        },
+        {
+          "name": "Teleferik yolculuğu",
+          "durationMinutes": 20,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "ulaşım",
+            "teleferik",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.eyupsultan.bel.tr/tr/main/pages/pierre-loti-seyir-terasi/1041",
+          "https://www.eyupsultan.bel.tr/tr/main/pages/pierre-loti-kahvesi/1046"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

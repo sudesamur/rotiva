@@ -1,0 +1,46 @@
+{
+  "dataset": "İstanbul rota aktivite sözlüğü",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "activityGroups": [
+    {
+      "id": "culture_history",
+      "label": "Kültür ve tarih",
+      "tags": ["müze", "sergi", "tarihi", "mimari", "arkeoloji", "saray", "edebiyat", "müzik", "karikatür"]
+    },
+    {
+      "id": "food_drink",
+      "label": "Yeme içme",
+      "tags": ["kahvaltı", "öğle-yemeği", "akşam-yemeği", "kahve", "tatlı", "atıştırmalık", "sokak-lezzeti", "yerel-yemek"]
+    },
+    {
+      "id": "outdoor",
+      "label": "Açık hava",
+      "tags": ["yürüyüş", "sahil", "boğaz", "park", "yeşil-alan", "gün-batımı", "manzara", "spor"]
+    },
+    {
+      "id": "social_nightlife",
+      "label": "Sosyal ve gece",
+      "tags": ["sosyal", "gece", "gece-hayatı", "canlı-müzik", "18+", "buluşma"]
+    },
+    {
+      "id": "shopping_discovery",
+      "label": "Keşif ve alışveriş",
+      "tags": ["alışveriş", "çarşı", "hediyelik", "kitap", "plak", "tasarım", "yerel-ürün"]
+    },
+    {
+      "id": "photo",
+      "label": "Fotoğraf",
+      "tags": ["fotoğraf", "mimari", "manzara", "sokak-sanatı"]
+    }
+  ],
+  "routeConstraints": [
+    { "tag": "yağmurlu-gün", "meaning": "Yağmurlu havada önceliklendirilebilir." },
+    { "tag": "çocukla-uygun", "meaning": "Çocuklu ziyaretçiler için uygun adaydır." },
+    { "tag": "aile", "meaning": "Aile grupları için uygun adaydır." },
+    { "tag": "ücretsiz", "meaning": "Aktivitenin kendisi ücret gerektirmez." },
+    { "tag": "popüler", "meaning": "Yoğunluk veya bilet kuyruğu riski vardır." },
+    { "tag": "rezervasyon", "meaning": "Rezervasyon veya ön bilet kontrolü gerekir." },
+    { "tag": "tam-gün-durak", "meaning": "Aynı rota içinde az sayıda ek durakla planlanmalıdır." }
+  ]
+}

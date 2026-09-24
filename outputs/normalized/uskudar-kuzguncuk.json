@@ -1,0 +1,654 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "uskudar-kuzguncuk-seed-data.json",
+  "places": [
+    {
+      "id": "uskudar-ferry-terminal",
+      "name": "Üsküdar İskelesi ve Meydanı",
+      "region": "uskudar-kuzguncuk",
+      "category": "viewpoint",
+      "type": "transport_hub",
+      "tags": [
+        "başlangıç-noktası",
+        "ulaşım"
+      ],
+      "coordinates": {
+        "lat": 41.0257,
+        "lng": 29.0155
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Vapurla varış veya ayrılış",
+          "durationMinutes": 20,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "ulaşım",
+            "boğaz",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Meydan ve Boğaz fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "mihrimah-sultan-mosque-uskudar",
+      "name": "Mihrimah Sultan Camii (İskele Camii)",
+      "region": "uskudar-kuzguncuk",
+      "category": "historical",
+      "type": "historic_religious_site",
+      "tags": [
+        "tarihi",
+        "ücretsiz",
+        "mimari"
+      ],
+      "coordinates": {
+        "lat": 41.0261,
+        "lng": 29.0151
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî mimari gezisi",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "mimari"
+          ]
+        },
+        {
+          "name": "Avlu ve meydan fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.uskudar.bel.tr/tr/main/pages/mihrimah-sultan-camii/39"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "semsi-pasha-mosque-waterfront",
+      "name": "Şemsi Paşa Camii ve Sahil",
+      "region": "uskudar-kuzguncuk",
+      "category": "historical",
+      "type": "historic_waterfront",
+      "tags": [
+        "ücretsiz",
+        "manzara",
+        "tarihi"
+      ],
+      "coordinates": {
+        "lat": 41.0217,
+        "lng": 29.0127
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sahil yürüyüşü",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "boğaz"
+          ]
+        },
+        {
+          "name": "Tarihî yapı ve deniz fotoğrafı",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "tarihi"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "salacak-coast",
+      "name": "Salacak Sahili",
+      "region": "uskudar-kuzguncuk",
+      "category": "cafe",
+      "type": "waterfront",
+      "tags": [
+        "ücretsiz",
+        "manzara",
+        "gün-batımı"
+      ],
+      "coordinates": {
+        "lat": 41.0204,
+        "lng": 29.012
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Kız Kulesi manzarası",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Sahil yürüyüşü",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "açık-hava"
+          ]
+        },
+        {
+          "name": "Sahilde kahve veya atıştırmalık",
+          "durationMinutes": 40,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "atıştırmalık",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.uskudar.gov.tr/turistik-yapilar"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "maiden-tower",
+      "name": "Kız Kulesi",
+      "region": "uskudar-kuzguncuk",
+      "category": "museum",
+      "type": "museum_landmark",
+      "tags": [
+        "müze",
+        "manzara",
+        "tarihi",
+        "popüler"
+      ],
+      "coordinates": {
+        "lat": 41.0211,
+        "lng": 29.0041
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Müze ve seyir noktası gezisi",
+          "durationMinutes": 90,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "manzara",
+            "tarihi",
+            "tekne-transferi"
+          ]
+        }
+      ],
+      "durationMinutes": 90,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/urun-ekle?catalogNo=WEB-SAG03-87-009"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kuzguncuk-main-street",
+      "name": "Kuzguncuk Çarşı ve İcadiye Caddesi",
+      "region": "uskudar-kuzguncuk",
+      "category": "historical",
+      "type": "neighborhood",
+      "tags": [
+        "kahve",
+        "yemek",
+        "fotoğraf",
+        "tarihi"
+      ],
+      "coordinates": {
+        "lat": 41.0367,
+        "lng": 29.0311
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî sokaklarda yürüyüş",
+          "durationMinutes": 50,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "tarihi",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "dinlenme"
+          ]
+        },
+        {
+          "name": "Yerel öğle yemeği",
+          "durationMinutes": 70,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "öğle-yemeği",
+            "yerel",
+            "sosyal"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.uskudar.bel.tr/tr/main/mahalleler"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kuzguncuk-bostan",
+      "name": "Kuzguncuk Bostanı",
+      "region": "uskudar-kuzguncuk",
+      "category": "park",
+      "type": "urban_garden",
+      "tags": [
+        "ücretsiz",
+        "yeşil-alan",
+        "aile",
+        "etkinlik"
+      ],
+      "coordinates": {
+        "lat": 41.0397,
+        "lng": 29.0319
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Bostan ve açık hava gezisi",
+          "durationMinutes": 35,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yeşil-alan",
+            "açık-hava"
+          ]
+        },
+        {
+          "name": "Dönemsel atölye veya festival",
+          "durationMinutes": 90,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "etkinlik",
+            "atölye",
+            "çocukla-uygun"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.uskudar.bel.tr/tr/main/news/uskudarda-cevre-bilinci-festivalle-buyuyecek/2828"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "nevmekan-kuzguncuk",
+      "name": "Nevmekân Kuzguncuk",
+      "region": "uskudar-kuzguncuk",
+      "category": "historical",
+      "type": "library_cafe_culture",
+      "tags": [
+        "kahve",
+        "tarihi",
+        "çalışma",
+        "yağmurlu-gün"
+      ],
+      "coordinates": {
+        "lat": 41.0382,
+        "lng": 29.0324
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî hamam yapısını görme",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "mimari",
+            "tarihi"
+          ]
+        },
+        {
+          "name": "Kahve, yemek veya çalışma molası",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "yemek",
+            "çalışma",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Serbest çalışma alanı her gün 09:00–23:00; ödünç/iade hizmeti hafta içi 09:00–17:00.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.uskudar.bel.tr/tr/main/pages/nevmekan-kuzguncuk/719"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "fethi-pasha-grove",
+      "name": "Fethi Paşa Korusu",
+      "region": "uskudar-kuzguncuk",
+      "category": "cafe",
+      "type": "park_viewpoint",
+      "tags": [
+        "manzara",
+        "yeşil-alan",
+        "kahvaltı"
+      ],
+      "coordinates": {
+        "lat": 41.0325,
+        "lng": 29.0248
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Boğaz manzaralı yürüyüş",
+          "durationMinutes": 60,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "manzara",
+            "yeşil-alan"
+          ]
+        },
+        {
+          "name": "Manzaralı kahve veya kahvaltı",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "kahvaltı",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.uskudar.gov.tr/turistik-yapilar"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

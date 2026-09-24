@@ -1,0 +1,665 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "sultanahmet-eminonu-seed-data.json",
+  "places": [
+    {
+      "id": "sultanahmet-square",
+      "name": "Sultanahmet Meydanı ve Hipodrom",
+      "region": "sultanahmet-eminonu",
+      "category": "historical",
+      "type": "historic_square",
+      "tags": [
+        "başlangıç-noktası",
+        "ücretsiz",
+        "tarihi"
+      ],
+      "coordinates": {
+        "lat": 41.0056,
+        "lng": 28.9769
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Meydan, Dikilitaş ve tarihi anıtlar yürüyüşü",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "yürüyüş",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Meydan fotoğrafı",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/muze-detay?DistId=TIE&SectionId=TIE01"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "hagia-sophia",
+      "name": "Ayasofya-i Kebir Camii",
+      "region": "sultanahmet-eminonu",
+      "category": "historical",
+      "type": "historic_religious_site",
+      "tags": [
+        "tarihi",
+        "mimari",
+        "popüler"
+      ],
+      "coordinates": {
+        "lat": 41.0086,
+        "lng": 28.9802
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Dış mimari ve meydan fotoğrafı",
+          "durationMinutes": 25,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "mimari",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Ziyaret alanını gezme",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "tarihi",
+            "mimari",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/s3/MysFileLibrary/IstanbulAyasofyaMuzesi-ca7842f8-b9a3-48e8-9265-c54d8e9128dd.pdf"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "basilica-cistern",
+      "name": "Yerebatan Sarnıcı",
+      "region": "sultanahmet-eminonu",
+      "category": "museum",
+      "type": "museum_historic_site",
+      "tags": [
+        "müze",
+        "tarihi",
+        "yağmurlu-gün",
+        "popüler"
+      ],
+      "coordinates": {
+        "lat": 41.0084,
+        "lng": 28.9779
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sarnıç ve Medusa başları gezisi",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "tarihi",
+            "kapalı-mekân",
+            "fotoğraf"
+          ]
+        }
+      ],
+      "durationMinutes": 60,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://istanbulseninhaber.ibb.istanbul/haber-detay/yerebatan-sarnici-1-tl-oldu"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "turkish-islamic-arts-museum",
+      "name": "Türk ve İslam Eserleri Müzesi",
+      "region": "sultanahmet-eminonu",
+      "category": "museum",
+      "type": "museum",
+      "tags": [
+        "müze",
+        "tarihi",
+        "yağmurlu-gün"
+      ],
+      "coordinates": {
+        "lat": 41.0062236,
+        "lng": 28.9747201
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "Müze gezisi",
+          "durationMinutes": 90,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "tarihi",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": 90,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Her gün 09:00–18:45; gece müzeciliği 19:00–22:00.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/muze-detay?DistId=TIE&SectionId=TIE01"
+        ],
+        "verificationSource": "Google Haritalar: Türk ve İslam Eserleri Müzesi; Kültür ve Turizm Bakanlığı resmi sayfası, 2026-09-07",
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "topkapi-palace",
+      "name": "Topkapı Sarayı",
+      "region": "sultanahmet-eminonu",
+      "category": "palace",
+      "type": "palace_museum",
+      "tags": [
+        "müze",
+        "saray",
+        "tam-gün-durak",
+        "popüler"
+      ],
+      "coordinates": {
+        "lat": 41.0115195,
+        "lng": 28.9833789
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "Saray ve bahçeler gezisi",
+          "durationMinutes": 180,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "saray",
+            "tarihi",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Harem bölümü gezisi",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "müze",
+            "tarihi",
+            "ek-bilet"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.muze.gov.tr/document/bakanlik_yonergesi_tr.pdf"
+        ],
+        "verificationSource": "Google Haritalar: Topkapı Sarayı Müzesi; Milli Saraylar resmi sayfası, 2026-09-07",
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "istanbul-archaeological-museums",
+      "name": "İstanbul Arkeoloji Müzeleri",
+      "region": "sultanahmet-eminonu",
+      "category": "museum",
+      "type": "museum",
+      "tags": [
+        "müze",
+        "arkeoloji",
+        "tam-gün-durak"
+      ],
+      "coordinates": {
+        "lat": 41.0116855,
+        "lng": 28.9813305
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "Arkeoloji, Eski Şark Eserleri ve Çinili Köşk gezisi",
+          "durationMinutes": 150,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "arkeoloji",
+            "tarihi",
+            "kapalı-mekân"
+          ]
+        }
+      ],
+      "durationMinutes": 150,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Her gün 09:00–18:45.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "indoor",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/muze-detay?DistId=IAR&SectionId=IAR01"
+        ],
+        "verificationSource": "Google Haritalar: İstanbul Arkeoloji Müzeleri; Kültür ve Turizm Bakanlığı resmi sayfası, 2026-09-07",
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "gulhane-park",
+      "name": "Gülhane Parkı",
+      "region": "sultanahmet-eminonu",
+      "category": "park",
+      "type": "park",
+      "tags": [
+        "ücretsiz",
+        "yeşil-alan",
+        "açık-hava"
+      ],
+      "coordinates": {
+        "lat": 41.0131,
+        "lng": 28.9815
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Parkta yürüyüş",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "yeşil-alan"
+          ]
+        },
+        {
+          "name": "Manzara ve dinlenme molası",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "dinlenme",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "sultanahmet-food-district",
+      "name": "Sultanahmet Yeme-İçme Alanı",
+      "region": "sultanahmet-eminonu",
+      "category": "cafe",
+      "type": "food_district",
+      "tags": [
+        "yeme-içme",
+        "kahve",
+        "merkez"
+      ],
+      "coordinates": {
+        "lat": 41.005,
+        "lng": 28.9788
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Öğle yemeği",
+          "durationMinutes": 70,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "öğle-yemeği",
+            "yerel",
+            "turistik"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "dinlenme"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "eminonu-square",
+      "name": "Eminönü Meydanı ve Rıhtım",
+      "region": "sultanahmet-eminonu",
+      "category": "viewpoint",
+      "type": "transport_hub",
+      "tags": [
+        "ulaşım",
+        "başlangıç-noktası",
+        "manzara"
+      ],
+      "coordinates": {
+        "lat": 41.0161,
+        "lng": 28.97
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Rıhtım ve Galata Köprüsü manzarası",
+          "durationMinutes": 25,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Vapurla varış veya ayrılış",
+          "durationMinutes": 20,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "ulaşım",
+            "boğaz"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "spice-bazaar",
+      "name": "Mısır Çarşısı",
+      "region": "sultanahmet-eminonu",
+      "category": "historical",
+      "type": "historic_market",
+      "tags": [
+        "alışveriş",
+        "yerel-lezzet",
+        "tarihi"
+      ],
+      "coordinates": {
+        "lat": 41.0167,
+        "lng": 28.9709
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Baharat ve yerel ürün gezisi",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "alışveriş",
+            "yerel",
+            "tarihi"
+          ]
+        },
+        {
+          "name": "Tatlı veya atıştırmalık molası",
+          "durationMinutes": 30,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "tatlı",
+            "atıştırmalık",
+            "yerel"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

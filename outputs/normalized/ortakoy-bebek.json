@@ -1,0 +1,639 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "ortakoy-bebek-seed-data.json",
+  "places": [
+    {
+      "id": "ortakoy-square",
+      "name": "Ortaköy Meydanı ve Sahil",
+      "region": "ortakoy-bebek",
+      "category": "viewpoint",
+      "type": "waterfront_square",
+      "tags": [
+        "başlangıç-noktası",
+        "manzara",
+        "fotoğraf"
+      ],
+      "coordinates": {
+        "lat": 41.0479,
+        "lng": 29.0277
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Boğaz ve köprü manzarası",
+          "durationMinutes": 25,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "manzara",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Meydan ve sahil yürüyüşü",
+          "durationMinutes": 35,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "açık-hava"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "ortakoy-mosque",
+      "name": "Büyük Mecidiye Camii (Ortaköy Camii)",
+      "region": "ortakoy-bebek",
+      "category": "historical",
+      "type": "historic_religious_site",
+      "tags": [
+        "tarihi",
+        "ücretsiz",
+        "mimari"
+      ],
+      "coordinates": {
+        "lat": 41.0478,
+        "lng": 29.0274
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî mimari gezisi",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "mimari"
+          ]
+        },
+        {
+          "name": "Cami ve Boğaz fotoğrafı",
+          "durationMinutes": 15,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://visit.istanbul/ortakoy-mosque",
+          "https://okuldisiogrenme.eba.gov.tr/mekan-detay/buyuk-mecidiye-camii-8564"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "ortakoy-food-market",
+      "name": "Ortaköy Çarşısı",
+      "region": "ortakoy-bebek",
+      "category": "restaurant",
+      "type": "food_market_district",
+      "tags": [
+        "yeme-içme",
+        "alışveriş",
+        "turistik"
+      ],
+      "coordinates": {
+        "lat": 41.049,
+        "lng": 29.0281
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Kumpir veya sokak lezzeti",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "yemek",
+            "sokak-lezzeti",
+            "yerel"
+          ]
+        },
+        {
+          "name": "El işi ve hediyelik eşya gezisi",
+          "durationMinutes": 40,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": [
+            "alışveriş",
+            "hediyelik",
+            "yerel"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://istanbul.ktb.gov.tr/TR-278800/besiktas-ortakoy---hediyelik-esya.html"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "ortakoy-waterfront-cafes",
+      "name": "Ortaköy Sahil Kafe Alanı",
+      "region": "ortakoy-bebek",
+      "category": "cafe",
+      "type": "food_waterfront_district",
+      "tags": [
+        "kahve",
+        "kahvaltı",
+        "manzara"
+      ],
+      "coordinates": {
+        "lat": 41.0487,
+        "lng": 29.0301
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Boğaz manzaralı kahvaltı",
+          "durationMinutes": 75,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahvaltı",
+            "manzara",
+            "sosyal"
+          ]
+        },
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "kurucesme-waterfront",
+      "name": "Kuruçeşme Sahili",
+      "region": "ortakoy-bebek",
+      "category": "viewpoint",
+      "type": "waterfront",
+      "tags": [
+        "ücretsiz",
+        "manzara",
+        "yürüyüş"
+      ],
+      "coordinates": {
+        "lat": 41.0584,
+        "lng": 29.0341
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Boğaz boyunca yürüyüş",
+          "durationMinutes": 50,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "boğaz"
+          ]
+        },
+        {
+          "name": "Manzara fotoğrafı",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "arnavutkoy-neighborhood",
+      "name": "Arnavutköy Sahil ve Sokakları",
+      "region": "ortakoy-bebek",
+      "category": "historical",
+      "type": "historic_neighborhood",
+      "tags": [
+        "tarihi",
+        "yeme-içme",
+        "manzara"
+      ],
+      "coordinates": {
+        "lat": 41.0672,
+        "lng": 29.0433
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Tarihî yalılar arasında yürüyüş",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "tarihi",
+            "yürüyüş",
+            "fotoğraf"
+          ]
+        },
+        {
+          "name": "Kahve veya öğle yemeği",
+          "durationMinutes": 60,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "öğle-yemeği",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "bebek-park",
+      "name": "Bebek Parkı",
+      "region": "ortakoy-bebek",
+      "category": "park",
+      "type": "park_waterfront",
+      "tags": [
+        "ücretsiz",
+        "yeşil-alan",
+        "manzara"
+      ],
+      "coordinates": {
+        "lat": 41.0783,
+        "lng": 29.0431
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Sahil yürüyüşü",
+          "durationMinutes": 45,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "yürüyüş",
+            "boğaz"
+          ]
+        },
+        {
+          "name": "Parkta dinlenme",
+          "durationMinutes": 30,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "dinlenme",
+            "yeşil-alan"
+          ]
+        },
+        {
+          "name": "Manzara fotoğrafı",
+          "durationMinutes": 20,
+          "costTRY": 0,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "ücretsiz",
+            "fotoğraf",
+            "manzara"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "bebek-coffee-food-district",
+      "name": "Bebek Sahil Kafe ve Restoran Alanı",
+      "region": "ortakoy-bebek",
+      "category": "cafe",
+      "type": "food_waterfront_district",
+      "tags": [
+        "kahve",
+        "akşam-rotası",
+        "manzara"
+      ],
+      "coordinates": {
+        "lat": 41.0774,
+        "lng": 29.0455
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Kahve veya tatlı molası",
+          "durationMinutes": 45,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "kahve",
+            "tatlı",
+            "manzara"
+          ]
+        },
+        {
+          "name": "Akşam yemeği",
+          "durationMinutes": 90,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "estimated",
+          "tags": [
+            "akşam-yemeği",
+            "manzara",
+            "sosyal"
+          ]
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://www.openstreetmap.org/"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "visit_duration",
+        "cost",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "rumeli-fortress",
+      "name": "Rumeli Hisarı",
+      "region": "ortakoy-bebek",
+      "category": "museum",
+      "type": "museum_historic_site",
+      "tags": [
+        "müze",
+        "tarihi",
+        "manzara"
+      ],
+      "coordinates": {
+        "lat": 41.0848,
+        "lng": 29.0558
+      },
+      "geocodeStatus": "unknown",
+      "autoRouteEligible": false,
+      "activities": [
+        {
+          "name": "Hisar ve Boğaz manzarası gezisi",
+          "durationMinutes": 90,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "verified",
+          "tags": [
+            "müze",
+            "tarihi",
+            "manzara",
+            "açık-hava"
+          ]
+        }
+      ],
+      "durationMinutes": 90,
+      "costTRY": null,
+      "costMinTRY": null,
+      "costMaxTRY": null,
+      "costRangeTRY": null,
+      "costConfidence": "unknown",
+      "openingHours": "Salı–Pazar 09:00–19:00; Pazartesi kapalı. Gişe 18:00'de kapanır.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "outdoor",
+      "source": {
+        "dataset": "Ortaköy–Bebek: mekân ve aktivite başlangıç verisi",
+        "sourceType": "seed",
+        "urls": [
+          "https://muze.gov.tr/muze-detay?distId=MRK&sectionId=HIS01",
+          "https://muze.gov.tr/urun-ekle?catalogNo=WEB-SAG03-87-009"
+        ],
+        "verificationSource": null,
+        "updatedAt": "2026-09-01"
+      },
+      "unknownFactors": [
+        "coordinate_verification",
+        "cost",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

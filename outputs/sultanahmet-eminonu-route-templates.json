@@ -1,0 +1,39 @@
+{
+  "dataset": "Sultanahmet–Eminönü rota şablonları",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-04",
+  "dependsOn": ["sultanahmet-eminonu-seed-data.json", "sultanahmet-eminonu-food-coffee-venues.json"],
+  "templates": [
+    {
+      "id": "sultanahmet-free-history",
+      "name": "Sultanahmet’te ekonomik tarih rotası",
+      "targetProfile": { "availableMinutes": 360, "budgetTRY": 1200, "interests": ["tarihi", "müze", "fotoğraf", "yerel-yemek"], "pace": "normal" },
+      "estimatedTotal": { "durationMinutes": 360, "costRangeTRY": [551, 1801], "walkingMinutes": 65 },
+      "stops": [
+        { "placeId": "sultanahmet-square", "activity": "Meydan, Dikilitaş ve tarihi anıtlar yürüyüşü", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "hagia-sophia", "activity": "Dış mimari ve meydan fotoğrafı", "durationMinutes": 25, "costTRY": 0 },
+        { "placeId": "basilica-cistern", "activity": "Sarnıç ve Medusa başları gezisi", "durationMinutes": 60, "costTRY": null, "costConfidence": "current_tariff_required" },
+        { "placeId": "sultanahmet-food-district", "activity": "Öğle yemeği", "durationMinutes": 70, "costRangeTRY": [450, 2800], "candidateVenueIds": ["tarihi-sultanahmet-koftecisi-selim-usta", "deraliye-restaurant", "matbah-restaurant"] },
+        { "placeId": "gulhane-park", "activity": "Parkta yürüyüş", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "eminonu-square", "activity": "Rıhtım ve Galata Köprüsü manzarası", "durationMinutes": 25, "costTRY": 0 },
+        { "placeId": "spice-bazaar", "activity": "Tatlı veya atıştırmalık molası", "durationMinutes": 30, "costRangeTRY": [120, 850], "candidateVenueIds": ["hafiz-mustafa-bahcekapi", "kurukahveci-mehmet-efendi-eminonu"] }
+      ],
+      "notes": ["Yerebatan Sarnıcı ücreti rota oluşturulmadan önce güncel resmi tarifeden alınmalıdır.", "Kalabalık günlerde Yerebatan için bekleme payı eklenmelidir."]
+    },
+    {
+      "id": "sultanahmet-archaeology-day",
+      "name": "Arkeoloji ve Gülhane günü",
+      "targetProfile": { "availableMinutes": 420, "budgetTRY": 3500, "interests": ["müze", "arkeoloji", "park", "kahve"], "pace": "rahat" },
+      "estimatedTotal": { "durationMinutes": 420, "costRangeTRY": [220, 650], "fixedCostsExcluded": true, "walkingMinutes": 55 },
+      "stops": [
+        { "placeId": "istanbul-archaeological-museums", "activity": "Arkeoloji, Eski Şark Eserleri ve Çinili Köşk gezisi", "durationMinutes": 150, "costTRY": null, "foreignVisitorCostEUR": 15 },
+        { "placeId": "gulhane-park", "activity": "Manzara ve dinlenme molası", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "turkish-islamic-arts-museum", "activity": "Müze gezisi", "durationMinutes": 90, "costTRY": null },
+        { "placeId": "sultanahmet-food-district", "activity": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [140, 850], "candidateVenueIds": ["cuppa-espresso-bakery-sultanahmet", "mim-kahve-tahtakale", "hafiz-mustafa-bahcekapi"] },
+        { "placeId": "sultanahmet-square", "activity": "Meydan fotoğrafı", "durationMinutes": 20, "costTRY": 0 }
+      ],
+      "notes": ["Bu rota yüksek müze yoğunluğundadır; çocuklu veya hızlı tempo tercihlerinde iki müzeden biri çıkarılmalıdır.", "MüzeKart ve yabancı ziyaretçi bilet türleri bütçe hesabında ayrı ele alınmalı."
+      ]
+    }
+  ]
+}

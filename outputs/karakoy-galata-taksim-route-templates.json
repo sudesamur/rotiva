@@ -1,0 +1,38 @@
+{
+  "dataset": "Karaköy–Galata–Taksim rota şablonları",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "dependsOn": "karakoy-galata-taksim-seed-data.json",
+  "templates": [
+    {
+      "id": "free-culture-karakoy-galata",
+      "name": "Ücretsiz kültür ve Galata yürüyüşü",
+      "targetProfile": { "availableMinutes": 330, "budgetTRY": 1200, "interests": ["müze", "fotoğraf", "kahve", "tarihi"], "pace": "normal" },
+      "estimatedTotal": { "durationMinutes": 330, "costRangeTRY": [380, 1100], "walkingMinutes": 75 },
+      "stops": [
+        { "placeId": "karakoy-ferry-terminal", "activity": "Rıhtım fotoğrafı", "durationMinutes": 15, "costTRY": 0 },
+        { "placeId": "salt-galata", "activity": "Sergi ve Osmanlı Bankası Müzesi koleksiyonu gezisi", "durationMinutes": 60, "costTRY": 0 },
+        { "placeId": "kamondo-stairs", "activity": "Mimari ve sokak fotoğrafı", "durationMinutes": 15, "costTRY": 0 },
+        { "placeId": "galata-neighborhood", "activity": "Tarihi sokaklarda yürüyüş", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "galata-neighborhood", "activity": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [200, 600], "combinedVisit": true },
+        { "placeId": "galata-bridge", "activity": "Köprüde yürüyüş ve Haliç fotoğrafı", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "galata-bridge", "activity": "Balık ekmek veya sokak lezzeti", "durationMinutes": 35, "costRangeTRY": [200, 500], "combinedVisit": true }
+      ],
+      "notes": ["SALT Galata Pazartesi kapalıdır.", "Galata Kulesi opsiyonel tutuldu; bilet türü kullanıcı uyruğuna ve MüzeKart durumuna göre farklılaşır."]
+    },
+    {
+      "id": "art-sunset-karakoy-taksim",
+      "name": "Sanat, Galata ve akşamüstü rotası",
+      "targetProfile": { "availableMinutes": 450, "budgetTRY": 3000, "interests": ["müze", "modern-sanat", "manzara", "yemek"], "pace": "rahat" },
+      "estimatedTotal": { "durationMinutes": 450, "costRangeTRY": [1080, 3450], "walkingMinutes": 90 },
+      "stops": [
+        { "placeId": "istanbul-modern", "activity": "Modern sanat müzesi gezisi", "durationMinutes": 120, "costTRY": 230 },
+        { "placeId": "galataport-waterfront", "activity": "Boğaz yürüyüşü ve fotoğraf", "durationMinutes": 40, "costTRY": 0 },
+        { "placeId": "galata-tower", "activity": "Galata sokaklarında fotoğraf yürüyüşü", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "istiklal-avenue", "activity": "Cadde yürüyüşü", "durationMinutes": 60, "costTRY": 0 },
+        { "placeId": "asmalimescit", "activity": "Akşam yemeği", "durationMinutes": 80, "costRangeTRY": [550, 1800] }
+      ],
+      "notes": ["İstanbul Modern için rota üretiminden önce güncel ziyaret saati ve bilet fiyatı kontrol edilmeli.", "Taksim Meydanı, dönüş veya toplu taşıma bağlantısı için bitiş noktası olarak önerilebilir."]
+    }
+  ]
+}

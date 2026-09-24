@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İstanbul Gezi Planlayıcı</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div class="hero-copy"><p class="eyebrow">İstanbul'u kendi ritminle keşfet</p><h1>Günün için iyi düşünülmüş bir rota.</h1><p>İlgi alanların, zamanın ve bütçene göre doğrulanmış mekânlardan kişiselleştirilmiş bir şehir planı oluştur.</p></div>
+        <section class="intent-input" aria-labelledby="intent-title"><div class="section-heading"><p class="section-kicker">Doğal dille başla</p><h2 id="intent-title">Nasıl bir gün geçirmek istiyorsun?</h2></div><textarea id="planner-text" rows="4" placeholder="Sultanahmet'ta 5 saatim var. Tarihi yerleri ve müzeleri seviyorum..."></textarea><div class="intent-action"><span>İsteklerini yaz, detayları forma aktaralım.</span><button id="interpret-button" type="button" class="secondary-button">Metni Yorumla <span aria-hidden="true">→</span></button></div><div id="interpret-feedback" class="interpret-feedback" hidden></div></section>
+      </header>
+      <section class="planner-layout">
+        <form id="planner-form" class="card planner-form">
+          <div class="form-heading"><p class="section-kicker">Tercihlerin</p><h2>Rotanı kişiselleştir</h2><p>Alanları dilediğin zaman güncelleyebilirsin.</p></div>
+          <section class="form-group"><h3>Gezi detayları</h3>
+          <label>Bölge<select id="region" name="region" required></select></label>
+          <div class="field-grid">
+            <label>Süre (dakika)<input id="availableMinutes" name="availableMinutes" type="number" min="1" value="360" required /></label>
+            <label>Bütçe (TL)<input id="budgetTRY" name="budgetTRY" type="number" min="0" placeholder="Belirsiz" /></label>
+          </div>
+          </section>
+          <section class="form-group"><h3>İlgi alanların</h3><p class="field-hint">Birden fazla seçim yapabilirsin.</p>
+          <fieldset><legend>İlgi alanları</legend><div id="interest-options" class="chips"></div></fieldset>
+          </section>
+          <section class="form-group"><h3>Zaman ve tempo</h3>
+          <label>Yürüyüş tercihi<select id="walkingPreference" name="walkingPreference"><option value="low">Düşük</option><option value="normal" selected>Normal</option><option value="high">Yüksek</option></select></label>
+          <div class="field-grid">
+            <label>Başlangıç saati<input id="plannedStartTime" name="plannedStartTime" type="time" value="10:00" required /></label>
+            <label>Hava<select id="weather"><option value="clear">Açık</option><option value="rain">Yağmurlu</option></select></label>
+          </div>
+          </section>
+          <section class="form-group location-group"><h3>Başlangıç konumu</h3><p class="field-hint">Rota mesafesini hesaplamak için kullanılır.</p>
+          <div class="field-grid">
+            <label>Enlem<input id="startLat" type="number" step="any" value="41.0056" required /></label>
+            <label>Boylam<input id="startLng" type="number" step="any" value="28.9769" required /></label>
+          </div>
+          </section>
+          <section id="activity-selector" class="activity-selector" hidden><div class="activity-heading"><div><h3>İsteğe bağlı aktiviteler</h3><p class="field-hint">Belirli bir ziyaret türü seçmek istersen ekleyebilirsin.</p></div><span class="optional-tag">Opsiyonel</span></div><div id="activity-options"></div></section>
+          <p id="form-error" class="form-error" role="alert" hidden></p>
+          <button id="plan-button" type="submit" class="primary-button"><span>Plan oluştur</span><span aria-hidden="true">→</span></button>
+        </form>
+        <section id="result" class="card result-panel" aria-live="polite"><div class="empty-state"><span class="empty-icon" aria-hidden="true">⌁</span><h2>Henüz rota oluşturulmadı</h2><p>Tercihlerini belirleyip planını oluşturmaya başla.</p></div></section>
+      </section>
+    </main>
+    <script src="/runtime-config.js"></script>
+    <script src="/src/api/planner-client.js"></script>
+    <script src="/src/client-utils.js"></script>
+    <script src="/src/app.js"></script>
+  </body>
+</html>

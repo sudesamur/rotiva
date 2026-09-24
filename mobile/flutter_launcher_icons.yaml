@@ -1,0 +1,10 @@
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/images/rotiva_app_icon.png
+  adaptive_icon_background: "#F7F3EA"
+  adaptive_icon_foreground: assets/images/rotiva_app_icon.png
+  # The artwork already has generous margins; this keeps its corners inside
+  # Android's central safe circle while retaining a clear launcher-size mark.
+  adaptive_icon_foreground_inset: 16
+

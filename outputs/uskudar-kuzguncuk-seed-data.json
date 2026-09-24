@@ -1,0 +1,128 @@
+{
+  "dataset": "Üsküdar–Kuzguncuk: mekân ve aktivite başlangıç verisi",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "currency": "TRY",
+  "scope": "Günlük gezi rotası üretimi için kürasyon katmanı. Yeme-içme aralıkları editoryal tahmindir; güncel menü fiyatı değildir.",
+  "places": [
+    {
+      "id": "uskudar-ferry-terminal",
+      "name": "Üsküdar İskelesi ve Meydanı",
+      "type": "transport_hub",
+      "coordinates": { "lat": 41.0257, "lng": 29.0155 },
+      "activities": [
+        { "name": "Vapurla varış veya ayrılış", "durationMinutes": 20, "costTRY": null, "costConfidence": "operator_tariff_required", "tags": ["ulaşım", "boğaz", "manzara"] },
+        { "name": "Meydan ve Boğaz fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "manzara"] }
+      ],
+      "tags": ["başlangıç-noktası", "ulaşım"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "mihrimah-sultan-mosque-uskudar",
+      "name": "Mihrimah Sultan Camii (İskele Camii)",
+      "type": "historic_religious_site",
+      "coordinates": { "lat": 41.0261, "lng": 29.0151 },
+      "activities": [
+        { "name": "Tarihî mimari gezisi", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "mimari"] },
+        { "name": "Avlu ve meydan fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf"] }
+      ],
+      "tags": ["tarihi", "ücretsiz", "mimari"],
+      "sources": ["https://www.uskudar.bel.tr/tr/main/pages/mihrimah-sultan-camii/39"],
+      "routeNote": "İbadet saatlerinde ziyaretçi akışına saygı gösterilerek uygun zaman aralığı seçilmeli."
+    },
+    {
+      "id": "semsi-pasha-mosque-waterfront",
+      "name": "Şemsi Paşa Camii ve Sahil",
+      "type": "historic_waterfront",
+      "coordinates": { "lat": 41.0217, "lng": 29.0127 },
+      "activities": [
+        { "name": "Sahil yürüyüşü", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "boğaz"] },
+        { "name": "Tarihî yapı ve deniz fotoğrafı", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "tarihi"] }
+      ],
+      "tags": ["ücretsiz", "manzara", "tarihi"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "salacak-coast",
+      "name": "Salacak Sahili",
+      "type": "waterfront",
+      "coordinates": { "lat": 41.0204, "lng": 29.0120 },
+      "activities": [
+        { "name": "Kız Kulesi manzarası", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] },
+        { "name": "Sahil yürüyüşü", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "açık-hava"] },
+        { "name": "Sahilde kahve veya atıştırmalık", "durationMinutes": 40, "costRangeTRY": [180, 550], "costConfidence": "editorial_estimate", "tags": ["kahve", "atıştırmalık", "manzara"] }
+      ],
+      "tags": ["ücretsiz", "manzara", "gün-batımı"],
+      "sources": ["https://www.uskudar.gov.tr/turistik-yapilar"]
+    },
+    {
+      "id": "maiden-tower",
+      "name": "Kız Kulesi",
+      "type": "museum_landmark",
+      "coordinates": { "lat": 41.0211, "lng": 29.0041 },
+      "openingHours": null,
+      "activities": [
+        { "name": "Müze ve seyir noktası gezisi", "durationMinutes": 90, "costTRY": null, "foreignVisitorCostEUR": 27, "costConfidence": "official", "tags": ["müze", "manzara", "tarihi", "tekne-transferi"] }
+      ],
+      "tags": ["müze", "manzara", "tarihi", "popüler"],
+      "sources": ["https://muze.gov.tr/urun-ekle?catalogNo=WEB-SAG03-87-009"],
+      "verificationStatus": "Sefer, bilet türü ve ziyaret saati rota önerilmeden önce resmî kanaldan doğrulanmalı."
+    },
+    {
+      "id": "kuzguncuk-main-street",
+      "name": "Kuzguncuk Çarşı ve İcadiye Caddesi",
+      "type": "neighborhood",
+      "coordinates": { "lat": 41.0367, "lng": 29.0311 },
+      "activities": [
+        { "name": "Tarihî sokaklarda yürüyüş", "durationMinutes": 50, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "tarihi", "fotoğraf"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [200, 600], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "dinlenme"] },
+        { "name": "Yerel öğle yemeği", "durationMinutes": 70, "costRangeTRY": [400, 1100], "costConfidence": "editorial_estimate", "tags": ["öğle-yemeği", "yerel", "sosyal"] }
+      ],
+      "tags": ["kahve", "yemek", "fotoğraf", "tarihi"],
+      "sources": ["https://www.uskudar.bel.tr/tr/main/mahalleler"]
+    },
+    {
+      "id": "kuzguncuk-bostan",
+      "name": "Kuzguncuk Bostanı",
+      "type": "urban_garden",
+      "coordinates": { "lat": 41.0397, "lng": 29.0319 },
+      "activities": [
+        { "name": "Bostan ve açık hava gezisi", "durationMinutes": 35, "costTRY": 0, "tags": ["ücretsiz", "yeşil-alan", "açık-hava"] },
+        { "name": "Dönemsel atölye veya festival", "durationMinutes": 90, "costTRY": null, "costConfidence": "event_tariff_required", "tags": ["etkinlik", "atölye", "çocukla-uygun"] }
+      ],
+      "tags": ["ücretsiz", "yeşil-alan", "aile", "etkinlik"],
+      "sources": ["https://www.uskudar.bel.tr/tr/main/news/uskudarda-cevre-bilinci-festivalle-buyuyecek/2828"],
+      "verificationStatus": "Bostanın erişim koşulları ve dönemsel etkinlikler dinamik olarak doğrulanmalı."
+    },
+    {
+      "id": "nevmekan-kuzguncuk",
+      "name": "Nevmekân Kuzguncuk",
+      "type": "library_cafe_culture",
+      "coordinates": { "lat": 41.0382, "lng": 29.0324 },
+      "openingHours": "Serbest çalışma alanı her gün 09:00–23:00; ödünç/iade hizmeti hafta içi 09:00–17:00.",
+      "activities": [
+        { "name": "Tarihî hamam yapısını görme", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "mimari", "tarihi"] },
+        { "name": "Kahve, yemek veya çalışma molası", "durationMinutes": 60, "costRangeTRY": [180, 650], "costConfidence": "editorial_estimate", "tags": ["kahve", "yemek", "çalışma", "kapalı-mekân"] }
+      ],
+      "tags": ["kahve", "tarihi", "çalışma", "yağmurlu-gün"],
+      "sources": ["https://www.uskudar.bel.tr/tr/main/pages/nevmekan-kuzguncuk/719"]
+    },
+    {
+      "id": "fethi-pasha-grove",
+      "name": "Fethi Paşa Korusu",
+      "type": "park_viewpoint",
+      "coordinates": { "lat": 41.0325, "lng": 29.0248 },
+      "activities": [
+        { "name": "Boğaz manzaralı yürüyüş", "durationMinutes": 60, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "manzara", "yeşil-alan"] },
+        { "name": "Manzaralı kahve veya kahvaltı", "durationMinutes": 60, "costRangeTRY": [250, 800], "costConfidence": "editorial_estimate", "tags": ["kahve", "kahvaltı", "manzara"] }
+      ],
+      "tags": ["manzara", "yeşil-alan", "kahvaltı"],
+      "sources": ["https://www.uskudar.gov.tr/turistik-yapilar"]
+    }
+  ],
+  "dataRules": {
+    "foodAndCoffeePrices": "Güncel işletme menüsü veya yetkili API olmadan kesin fiyat gösterme; tahmini aralık etiketi kullan.",
+    "openingHours": "Rota üretmeden hemen önce resmî veya dinamik kaynaktan yeniden doğrula.",
+    "religiousSites": "İbadet saatlerinde ziyaretçi akışına saygı gösterilerek durak zamanı ayarlanmalı."
+  }
+}

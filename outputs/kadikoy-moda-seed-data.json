@@ -1,0 +1,217 @@
+{
+  "dataset": "Kadıköy–Moda: mekân ve aktivite başlangıç verisi",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "currency": "TRY",
+  "scope": "Günlük gezi rotası üretimi için ilk kürasyon katmanı. Yeme-içme aralıkları editoryal tahmindir; canlı fiyat değildir.",
+  "places": [
+    {
+      "id": "kadikoy-ferry-terminal",
+      "name": "Kadıköy İskelesi ve Rıhtım",
+      "type": "transport_hub",
+      "coordinates": { "lat": 40.9907, "lng": 29.0249 },
+      "activities": [
+        { "name": "Vapurla varış veya ayrılış", "durationMinutes": 20, "costTRY": null, "costConfidence": "operator_tariff_required", "tags": ["ulaşım", "boğaz", "manzara"] },
+        { "name": "Rıhtımda kısa manzara molası", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] }
+      ],
+      "tags": ["başlangıç-noktası", "ulaşım"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "kadikoy-bull-statue",
+      "name": "Kadıköy Boğa Heykeli",
+      "type": "landmark",
+      "coordinates": { "lat": 40.9896, "lng": 29.0328 },
+      "activities": [
+        { "name": "Buluşma ve fotoğraf", "durationMinutes": 10, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "buluşma"] },
+        { "name": "Bahariye Caddesi yürüyüşüne başlama", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "alışveriş"] }
+      ],
+      "tags": ["merkez", "buluşma"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "kadikoy-market",
+      "name": "Kadıköy Çarşı ve Balık Pazarı",
+      "type": "food_market_district",
+      "coordinates": { "lat": 40.9909, "lng": 29.0265 },
+      "activities": [
+        { "name": "Pazar ve sokak lezzeti gezisi", "durationMinutes": 45, "costRangeTRY": [0, 250], "costConfidence": "editorial_estimate", "tags": ["yeme-içme", "yerel", "yürüyüş"] },
+        { "name": "Ekonomik öğle yemeği", "durationMinutes": 60, "costRangeTRY": [250, 650], "costConfidence": "editorial_estimate", "tags": ["öğle-yemeği", "ekonomik", "yerel"] },
+        { "name": "Gurme alışveriş", "durationMinutes": 30, "costRangeTRY": [150, 800], "costConfidence": "editorial_estimate", "tags": ["alışveriş", "yerel-ürün"] }
+      ],
+      "tags": ["yemek", "çarşı", "yağmurlu-gün"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "sureyya-opera-house",
+      "name": "Süreyya Operası",
+      "type": "performing_arts",
+      "coordinates": { "lat": 40.9889, "lng": 29.0284 },
+      "activities": [
+        { "name": "Dış cephe ve Bahariye Caddesi fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "mimari", "fotoğraf"] },
+        { "name": "Etkinlik izleme", "durationMinutes": 120, "costTRY": null, "costConfidence": "event_ticket_required", "tags": ["kültür-sanat", "akşam", "rezervasyon"] }
+      ],
+      "tags": ["kültür-sanat", "akşam-rotası"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "haldun-taner-stage",
+      "name": "Haldun Taner Sahnesi çevresi",
+      "type": "cultural_landmark",
+      "coordinates": { "lat": 40.9911, "lng": 29.0261 },
+      "activities": [
+        { "name": "Tarihi bina ve meydan fotoğrafı", "durationMinutes": 15, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf", "mimari"] },
+        { "name": "Tiyatro etkinliği", "durationMinutes": 120, "costTRY": null, "costConfidence": "event_ticket_required", "tags": ["kültür-sanat", "akşam", "rezervasyon"] }
+      ],
+      "tags": ["kültür-sanat", "merkez"],
+      "sources": ["https://sehirplanlama.ibb.istanbul/kadikoy-arsivi-projeler/"]
+    },
+    {
+      "id": "yeldegirmeni",
+      "name": "Yeldeğirmeni Mahallesi",
+      "type": "neighborhood",
+      "coordinates": { "lat": 40.9978, "lng": 29.0290 },
+      "activities": [
+        { "name": "Sokak sanatı ve mimari yürüyüşü", "durationMinutes": 50, "costTRY": 0, "tags": ["ücretsiz", "sokak-sanatı", "fotoğraf", "yürüyüş"] },
+        { "name": "Kahve molası", "durationMinutes": 45, "costRangeTRY": [150, 400], "costConfidence": "editorial_estimate", "tags": ["kahve", "dinlenme", "çalışma"] }
+      ],
+      "tags": ["sanat", "kahve", "yağmurlu-gün"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "baris-manco-house",
+      "name": "Barış Manço Evi",
+      "type": "museum",
+      "coordinates": { "lat": 40.9818, "lng": 29.0273 },
+      "openingHours": "Salı–Pazar 09:00–16:00; Pazartesi, resmî tatiller ve bayramlarda kapalı.",
+      "activities": [
+        { "name": "Müze gezisi", "durationMinutes": 60, "costTRY": 82, "studentCostTRY": 49, "costConfidence": "official", "tags": ["müze", "müzik", "kültür", "kapalı-mekân"] }
+      ],
+      "tags": ["müze", "kültür", "rezervasyon-gerekli"],
+      "sources": ["https://barismanco.kadikoy.bel.tr/iletisim"]
+    },
+    {
+      "id": "hafiza-kadikoy-city-museum",
+      "name": "Hafıza Kadıköy Kent Müzesi",
+      "type": "city_museum",
+      "coordinates": { "lat": 40.9912, "lng": 29.0259 },
+      "openingHours": null,
+      "activities": [
+        { "name": "Kadıköy kent hafızası sergisini gezme", "durationMinutes": 45, "costTRY": null, "costConfidence": "verification_required", "tags": ["müze", "yerel-tarih", "kapalı-mekân"] }
+      ],
+      "tags": ["müze", "yerel-tarih", "merkez"],
+      "sources": ["https://kadikoy.bel.tr/tr/mudurlukler/kutuphane-ve-muze-mudurlugu"],
+      "verificationStatus": "Ücret ve ziyaret saati rota üretiminden önce resmî kaynaktan doğrulanmalı."
+    },
+    {
+      "id": "muze-gazhane",
+      "name": "Müze Gazhane",
+      "type": "museum_campus",
+      "coordinates": { "lat": 40.9963, "lng": 29.0407 },
+      "openingHours": "İklim Müzesi, Çocuk Bilim Merkezi, Karikatür ve Mizah Müzesi ve Galeri Gazhane: Pazartesi hariç 10:00–18:00.",
+      "activities": [
+        { "name": "İklim Müzesi gezisi", "durationMinutes": 60, "costTRY": null, "costConfidence": "verification_required", "tags": ["müze", "iklim", "kapalı-mekân"] },
+        { "name": "Karikatür ve Mizah Müzesi gezisi", "durationMinutes": 60, "costTRY": null, "costConfidence": "verification_required", "tags": ["müze", "karikatür", "kapalı-mekân"] },
+        { "name": "Galeri veya güncel sergi gezisi", "durationMinutes": 45, "costTRY": null, "costConfidence": "event_tariff_required", "tags": ["sergi", "kültür-sanat", "kapalı-mekân"] },
+        { "name": "Yerleşkede kahve veya yemek molası", "durationMinutes": 50, "costRangeTRY": [180, 600], "costConfidence": "editorial_estimate", "tags": ["kahve", "yemek", "dinlenme"] }
+      ],
+      "tags": ["müze", "kültür-sanat", "yağmurlu-gün", "çocukla-uygun"],
+      "sources": ["https://muzegazhane.istanbul/ziyaret/", "https://kadikoy.bel.tr/tr/haber-detay/tarihi-hasanpasa-gazhanesi-muze-gazhane-olarak-hayat-buldu"],
+      "verificationStatus": "Sergiler ve ücret durumu dinamiktir; rota önerilmeden önce güncel program doğrulanmalı."
+    },
+    {
+      "id": "haldun-taner-museum-house",
+      "name": "Haldun Taner Müze Evi",
+      "type": "literary_house_museum",
+      "coordinates": null,
+      "zone": "Fenerbahçe / Kadıköy",
+      "enabledForAutoRouting": false,
+      "activities": [
+        { "name": "Edebiyat ve tiyatro odaklı müze gezisi", "durationMinutes": 45, "costTRY": null, "costConfidence": "verification_required", "tags": ["müze", "edebiyat", "tiyatro", "kapalı-mekân"] }
+      ],
+      "tags": ["müze", "edebiyat", "Kadıköy-genişletilmiş"],
+      "sources": ["https://kadikoy.bel.tr/tr/mudurlukler/kutuphane-ve-muze-mudurlugu", "https://www.kadikoy.bel.tr/en/news/haldun-taner-muze-evi-acildi-5155"],
+      "verificationStatus": "Koordinat, ziyaret saati ve ücret için resmî doğrulama gerekli."
+    },
+    {
+      "id": "istanbul-toy-museum",
+      "name": "İstanbul Oyuncak Müzesi",
+      "type": "museum",
+      "coordinates": { "lat": 40.9700, "lng": 29.0733 },
+      "zone": "Göztepe / Kadıköy",
+      "openingHours": "Pazartesi kapalı; hafta içi 10:00–18:00, hafta sonu 10:00–18:30.",
+      "activities": [
+        { "name": "Oyuncak müzesi gezisi", "durationMinutes": 90, "costTRY": 350, "discountedCostTRY": 200, "costConfidence": "official", "tags": ["müze", "çocukla-uygun", "nostalji", "kapalı-mekân"] },
+        { "name": "Atölye veya çocuk tiyatrosu", "durationMinutes": 60, "costTRY": null, "costConfidence": "event_ticket_required", "tags": ["çocuk", "atölye", "etkinlik"] }
+      ],
+      "tags": ["müze", "çocukla-uygun", "aile", "Kadıköy-genişletilmiş"],
+      "sources": ["https://istanbuloyuncakmuzesi.com/pages/okul-ziyaretleri"]
+    },
+    {
+      "id": "moda-street",
+      "name": "Moda Caddesi",
+      "type": "street_district",
+      "coordinates": { "lat": 40.9838, "lng": 29.0280 },
+      "activities": [
+        { "name": "Butik ve plakçı gezisi", "durationMinutes": 45, "costRangeTRY": [0, 1000], "costConfidence": "activity_dependent", "tags": ["alışveriş", "müzik", "yürüyüş"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [180, 500], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "dinlenme"] }
+      ],
+      "tags": ["kahve", "alışveriş", "akşamüstü"],
+      "sources": ["https://sehirplanlama.ibb.istanbul/caferaga-mahallesi/"]
+    },
+    {
+      "id": "moda-pier",
+      "name": "Tarihi Moda İskelesi",
+      "type": "pier_landmark",
+      "coordinates": { "lat": 40.9828, "lng": 29.0251 },
+      "activities": [
+        { "name": "Deniz manzarası ve fotoğraf", "durationMinutes": 25, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] },
+        { "name": "İskele çevresinde kahve molası", "durationMinutes": 45, "costRangeTRY": [180, 500], "costConfidence": "editorial_estimate", "tags": ["kahve", "manzara", "dinlenme"] }
+      ],
+      "tags": ["manzara", "kahve", "gün-batımı"],
+      "sources": ["https://kadikoy.bel.tr/tr/fotograflarla-kadikoy"]
+    },
+    {
+      "id": "moda-coast-park",
+      "name": "Moda Sahili ve Moda Parkı",
+      "type": "park_waterfront",
+      "coordinates": { "lat": 40.9797, "lng": 29.0228 },
+      "activities": [
+        { "name": "Sahil yürüyüşü", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "deniz"] },
+        { "name": "Gün batımı izleme", "durationMinutes": 35, "costTRY": 0, "tags": ["ücretsiz", "gün-batımı", "romantik", "fotoğraf"] },
+        { "name": "Piknik", "durationMinutes": 60, "costRangeTRY": [150, 600], "costConfidence": "editorial_estimate", "tags": ["açık-hava", "arkadaş-grubu", "yemek"] }
+      ],
+      "tags": ["ücretsiz", "açık-hava", "manzara", "gün-batımı"],
+      "sources": ["https://sehirplanlama.ibb.istanbul/caferaga-mahallesi/", "https://kadikoyapi.kadikoy.bel.tr/28d612a883874d09ae6a673f3b4d3e73.pdf"]
+    },
+    {
+      "id": "yogurtcu-park",
+      "name": "Yoğurtçu Parkı",
+      "type": "park",
+      "coordinates": { "lat": 40.9848, "lng": 29.0318 },
+      "activities": [
+        { "name": "Parkta dinlenme", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "dinlenme", "yeşil-alan"] },
+        { "name": "Koşu veya yürüyüş", "durationMinutes": 40, "costTRY": 0, "tags": ["ücretsiz", "spor", "açık-hava"] }
+      ],
+      "tags": ["ücretsiz", "spor", "açık-hava"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "kadife-street",
+      "name": "Kadife Sokak çevresi",
+      "type": "nightlife_district",
+      "coordinates": { "lat": 40.9876, "lng": 29.0310 },
+      "activities": [
+        { "name": "Akşam yemeği", "durationMinutes": 75, "costRangeTRY": [400, 1200], "costConfidence": "editorial_estimate", "tags": ["akşam-yemeği", "gece", "sosyal"] },
+        { "name": "Canlı müzik veya bar etkinliği", "durationMinutes": 120, "costRangeTRY": [350, 1500], "costConfidence": "editorial_estimate", "tags": ["gece-hayatı", "müzik", "18+"] }
+      ],
+      "tags": ["akşam-rotası", "yeme-içme", "gece-hayatı"],
+      "sources": ["https://www.openstreetmap.org/"]
+    }
+  ],
+  "dataRules": {
+    "foodAndCoffeePrices": "Bir mekanın güncel menüsü veya API kaynağı olmadan kesin fiyat gösterme; yalnızca aralık ve 'tahmini' etiketi kullan.",
+    "openingHours": "Rota üretmeden hemen önce dinamik kaynaktan yeniden doğrula.",
+    "activitySelection": "Her duraktan varsayılan olarak bir aktivite seç; aynı mekandaki iki aktivite yalnızca kullanıcı özellikle isterse birleşsin."
+  }
+}

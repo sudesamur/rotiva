@@ -1,0 +1,751 @@
+{
+  "dataset": "Karaköy–Galata–Taksim isimli yeme içme mekânları",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-02",
+  "regionId": "karakoy-galata-taksim",
+  "currency": "TRY",
+  "scope": "Günlük rota aday havuzu. Fiyat, açık saat ve işletme durumu rotadan hemen önce canlı kaynaktan doğrulanmalıdır.",
+  "venues": [
+    {
+      "id": "emek-restaurant-karakoy",
+      "name": "Emek Restaurant",
+      "category": "traditional_restaurant",
+      "address": "Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.02625,
+        "lng": 28.97125
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "meal": [
+          300,
+          750
+        ]
+      },
+      "priceConfidence": "menu_source_available",
+      "activities": [
+        "öğle-yemeği",
+        "Türk-mutfağı",
+        "günlük-yemek"
+      ],
+      "tags": [
+        "ekonomik",
+        "öğle-yemeği",
+        "geleneksel",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://emekrestaurant.com.tr/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "galata-evi",
+      "name": "Galata Evi",
+      "category": "cafe_restaurant",
+      "address": "Galata Kulesi Sokak No:15, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.024812,
+        "lng": 28.973438
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          120,
+          280
+        ],
+        "meal": [
+          450,
+          1000
+        ]
+      },
+      "priceConfidence": "menu_source_available",
+      "serviceCharge": "Menüde %10 servis bedeli belirtiliyor; rota maliyetine ayrıca eklenmeli.",
+      "activities": [
+        "kahve",
+        "öğle-yemeği",
+        "Galata-molası"
+      ],
+      "tags": [
+        "kahve",
+        "Galata",
+        "tarihi-bina",
+        "manzara"
+      ],
+      "sourceUrl": "https://www.thegalatahouse.com/images/menu-tr-22.pdf",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "galatta-karakoy-1950",
+      "name": "GALATTA Karaköy 1950",
+      "category": "cafe_restaurant",
+      "address": "Mumhane Caddesi No:9, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.023313,
+        "lng": 28.977187
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          130,
+          290
+        ],
+        "meal": [
+          450,
+          1100
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahve",
+        "öğle-yemeği",
+        "akşam-yemeği"
+      ],
+      "tags": [
+        "kahve",
+        "Karaköy",
+        "gün-boyu"
+      ],
+      "sourceUrl": "https://www.menulistele.com/galatta-karakoy",
+      "sourceQuality": "directory_verified",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "galata-olympos",
+      "name": "Galata Olympos Restaurant",
+      "category": "seafood_restaurant",
+      "address": "Yeni Galata Köprüsü Altı, Boğaz Tarafı No:5-6, Karaköy, İstanbul",
+      "coordinates": {
+        "lat": 41.021187,
+        "lng": 28.974187
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "openingHours": "Her gün 10:00–05:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "estimatedSpendTRY": {
+        "meal": [
+          850,
+          2200
+        ],
+        "mealAndDrink": [
+          1200,
+          3000
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "akşam-yemeği",
+        "deniz-ürünleri",
+        "boğaz-manzarası"
+      ],
+      "tags": [
+        "akşam",
+        "manzara",
+        "deniz-ürünleri",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://www.galataolymposrestaurant.com/men%C3%BCler",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "blender-cafe-galataport",
+      "name": "Blender Cafe Galataport",
+      "category": "cafe_restaurant",
+      "address": "Beymen Galataport, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.027563,
+        "lng": 28.987063
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          150,
+          320
+        ],
+        "breakfast": [
+          450,
+          1100
+        ],
+        "meal": [
+          500,
+          1200
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahvaltı",
+        "kahve",
+        "öğle-yemeği",
+        "sahil-molası"
+      ],
+      "tags": [
+        "Galataport",
+        "kahvaltı",
+        "kahve",
+        "sahil"
+      ],
+      "sourceUrl": "https://www.beymengroup.com/tr/markalar-blender.php",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "koz-terrace",
+      "name": "Köz Terrace",
+      "category": "kebab_restaurant",
+      "address": "Necatibey Caddesi No:42, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.023938,
+        "lng": 28.977313
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "meal": [
+          550,
+          1300
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "öğle-yemeği",
+        "akşam-yemeği",
+        "kebap"
+      ],
+      "tags": [
+        "kebap",
+        "teras",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://kozterrace.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "seagull-karakoy",
+      "name": "Seagull Karaköy",
+      "category": "terrace_restaurant",
+      "address": "Kılıçali Paşa Mahallesi, Meclis-i Mebusan Caddesi No:13, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.028312,
+        "lng": 28.984187
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "estimatedSpendTRY": {
+        "meal": [
+          900,
+          2200
+        ],
+        "mealAndDrink": [
+          1300,
+          3000
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "akşam-yemeği",
+        "manzara",
+        "kokteyl"
+      ],
+      "tags": [
+        "teras",
+        "manzara",
+        "akşam",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://seagullkarakoy.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "gallada",
+      "name": "GALLADA",
+      "category": "fine_dining",
+      "address": "The Peninsula Istanbul, Kemankeş Caddesi No:34, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.022937,
+        "lng": 28.977938
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "estimatedSpendTRY": {
+        "meal": [
+          2500,
+          6000
+        ],
+        "mealAndDrink": [
+          3500,
+          8500
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "özel-gün",
+        "akşam-yemeği",
+        "Türk-Asya-mutfağı"
+      ],
+      "tags": [
+        "özel-gün",
+        "rezervasyon",
+        "Galataport",
+        "fine-dining"
+      ],
+      "sourceUrl": "https://www.galladaistanbul.com/tr-tr/dining",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "karakoy-gulluoglu",
+      "name": "Karaköy Güllüoğlu",
+      "category": "bakery_dessert",
+      "address": "Kemankeş Karamustafapaşa Mahallesi, Kemankeş Caddesi No:67, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.024938,
+        "lng": 28.980938
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "dessert": [
+          180,
+          550
+        ],
+        "dessertAndDrink": [
+          260,
+          700
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "baklava",
+        "tatlı-molası",
+        "hediyelik-alışveriş"
+      ],
+      "tags": [
+        "baklava",
+        "ekonomik",
+        "Karaköy",
+        "tatlı"
+      ],
+      "sourceUrl": "https://www.karakoygulluoglu.com/Iletisim",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "namli-gurme-karakoy",
+      "name": "Namlı Gurme Karaköy",
+      "category": "breakfast_delicatessen",
+      "address": "Kemankeş Karamustafapaşa Mahallesi, Mumhane Caddesi, Atilla İş Hanı No:6/A, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.023688,
+        "lng": 28.977938
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "openingHours": "Her gün 07:00–22:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "estimatedSpendTRY": {
+        "breakfast": [
+          450,
+          1200
+        ],
+        "meal": [
+          450,
+          1100
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahvaltı",
+        "şarküteri",
+        "öğle-yemeği"
+      ],
+      "tags": [
+        "kahvaltı",
+        "şarküteri",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://www.namligurmeonline.com/iletisim",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "karakoy-lokantasi",
+      "name": "Karaköy Lokantası",
+      "category": "traditional_restaurant",
+      "address": "Kemankeş Mahallesi, Kemankeş Caddesi No:57, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.024687,
+        "lng": 28.980187
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "openingHours": "Öğle: Pzt–Cmt 12:00–16:00; akşam: Pzt–Cmt 17:30–00:00, Pazar 16:00–00:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "estimatedSpendTRY": {
+        "lunch": [
+          700,
+          1600
+        ],
+        "mealAndDrink": [
+          1200,
+          2800
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "öğle-yemeği",
+        "akşam-yemeği",
+        "geleneksel-mutfak"
+      ],
+      "tags": [
+        "geleneksel",
+        "rezervasyon",
+        "Karaköy",
+        "akşam"
+      ],
+      "sourceUrl": "https://www.karakoylokantasi.com/tr/info",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "coffee-sapiens-karakoy",
+      "name": "Coffee Sapiens Karaköy",
+      "category": "specialty_coffee",
+      "address": "Kemankeş Mahallesi, Kılıç Ali Paşa Mescidi Sokak No:10/C, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.025937,
+        "lng": 28.981187
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          140,
+          320
+        ],
+        "snack": [
+          220,
+          500
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "nitelikli-kahve",
+        "kısa-mola",
+        "kahve-demleme"
+      ],
+      "tags": [
+        "kahve",
+        "Karaköy",
+        "kısa-mola"
+      ],
+      "sourceUrl": "https://www.coffeesapiens.com/pages/venues",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "mums-cafe-karakoy",
+      "name": "Mums Cafe",
+      "category": "bakery_brunch",
+      "address": "Kemankeş Karamustafapaşa Mahallesi, Fransız Geçidi Sokak No:1/16 D:17, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.024687,
+        "lng": 28.979188
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          160,
+          350
+        ],
+        "dessert": [
+          240,
+          450
+        ],
+        "breakfast": [
+          450,
+          1100
+        ]
+      },
+      "priceConfidence": "menu_source_available",
+      "activities": [
+        "kahvaltı",
+        "kahve",
+        "tatlı",
+        "ekşi-mayalı-sandviç"
+      ],
+      "tags": [
+        "kahvaltı",
+        "pastane",
+        "kahve",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://www.mumscafe.com/pages/menumuz",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "naif-karakoy",
+      "name": "Naif Karaköy",
+      "category": "restaurant_bar",
+      "address": "Kemankeş Karamustafapaşa Mahallesi, Mumhane Caddesi No:52, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.025813,
+        "lng": 28.980562
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "openingHours": "Pzt–Perş 09:00–01:00; Cum–Cmt 09:00–02:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "estimatedSpendTRY": {
+        "meal": [
+          600,
+          1400
+        ],
+        "mealAndDrink": [
+          900,
+          2200
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "öğle-yemeği",
+        "akşam-yemeği",
+        "içecek"
+      ],
+      "tags": [
+        "akşam",
+        "bar",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g293974-d5494243-Reviews-Naif_Karakoy-Istanbul.html",
+      "sourceQuality": "directory_verified",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "petra-sishane",
+      "name": "Petra Roasting Co. Şişhane",
+      "category": "specialty_coffee",
+      "address": "Şişhane, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.028437,
+        "lng": 28.972812
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "openingHours": "Hafta içi 08:00–20:00 (Pazartesi kapalı); hafta sonu 10:00–20:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "estimatedSpendTRY": {
+        "coffee": [
+          150,
+          340
+        ],
+        "snack": [
+          220,
+          550
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "nitelikli-kahve",
+        "kısa-mola",
+        "Galata-yürüyüşü-molası"
+      ],
+      "tags": [
+        "kahve",
+        "Şişhane",
+        "Galata",
+        "kısa-mola"
+      ],
+      "sourceUrl": "https://www.petracoffee.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "karabatak-karakoy",
+      "name": "Karabatak Karaköy",
+      "category": "cafe",
+      "address": "Kemankeş Mahallesi, Kara Ali Kaptan Sokak No:7/A-B, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.025312,
+        "lng": 28.979312
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "Her gün 08:30–23:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "coffee": [
+          150,
+          340
+        ],
+        "snack": [
+          220,
+          550
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahve",
+        "brunch",
+        "çalışma",
+        "arkadaş-buluşması"
+      ],
+      "tags": [
+        "kahve",
+        "Karaköy",
+        "brunch",
+        "wifi"
+      ],
+      "sourceUrl": "https://karabatak.com/subelerimiz/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "unter-karakoy",
+      "name": "Unter Karaköy",
+      "category": "cafe_bar",
+      "address": "Kara Ali Kaptan Sokak No:4, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.025312,
+        "lng": 28.979062
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "Salı–Perş 10:00–00:00; Cum 10:00–02:00; Cmt 09:00–02:00; Paz 09:00–21:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "meal": [
+          550,
+          1300
+        ],
+        "mealAndDrink": [
+          850,
+          2000
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "kahvaltı",
+        "akşam-yemeği",
+        "kokteyl"
+      ],
+      "tags": [
+        "akşam",
+        "bar",
+        "Karaköy",
+        "brunch"
+      ],
+      "sourceUrl": "https://www.cornucopia.net/guide/listings/restaurants/unter/",
+      "sourceQuality": "editorial_verified",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "nato-lokantasi",
+      "name": "Nato Lokantası 1952",
+      "category": "traditional_restaurant",
+      "address": "Kemankeş Karamustafapaşa Mahallesi, Necatibey Caddesi, Karanlık Fırın Sokak No:4, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.024563,
+        "lng": 28.977938
+      },
+      "geocodeStatus": "verified",
+      "openingHours": "Hafta içi yalnız öğle servisi olarak belirtiliyor; rota anında yeniden doğrula.",
+      "budgetTier": "low",
+      "estimatedSpendTRY": {
+        "meal": [
+          300,
+          750
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "activities": [
+        "öğle-yemeği",
+        "Türk-mutfağı",
+        "günlük-yemek"
+      ],
+      "tags": [
+        "ekonomik",
+        "öğle-yemeği",
+        "geleneksel",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://www.natolokantasi.com.tr/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "neolokal",
+      "name": "Neolokal",
+      "category": "fine_dining",
+      "address": "SALT Galata, Bankalar Caddesi No:11, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.023812,
+        "lng": 28.973438
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "high",
+      "estimatedSpendTRY": {
+        "meal": [
+          2500,
+          6000
+        ],
+        "mealAndDrink": [
+          3500,
+          8500
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "özel-gün",
+        "akşam-yemeği",
+        "modern-Anadolu-mutfağı"
+      ],
+      "tags": [
+        "fine-dining",
+        "rezervasyon",
+        "SALT-Galata",
+        "özel-gün"
+      ],
+      "sourceUrl": "https://www.neolokal.com/",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    },
+    {
+      "id": "havali-karakoy",
+      "name": "Havalı Karaköy",
+      "category": "meyhane_restaurant",
+      "address": "Hoca Tahsin Sokak No:23/A, Karaköy, Beyoğlu, İstanbul",
+      "coordinates": {
+        "lat": 41.024938,
+        "lng": 28.978687
+      },
+      "geocodeStatus": "verified",
+      "budgetTier": "medium",
+      "estimatedSpendTRY": {
+        "meal": [
+          650,
+          1500
+        ],
+        "mealAndDrink": [
+          1000,
+          2400
+        ]
+      },
+      "priceConfidence": "editorial_estimate",
+      "reservationRecommended": true,
+      "activities": [
+        "akşam-yemeği",
+        "meze",
+        "arkadaş-buluşması"
+      ],
+      "tags": [
+        "meyhane",
+        "akşam",
+        "rezervasyon",
+        "Karaköy"
+      ],
+      "sourceUrl": "https://havalikarakoy.com/menu.html",
+      "verificationSource": "Google Haritalar işletme kaydı ve Plus Codes, 2026-09-02"
+    }
+  ],
+  "enrichmentRules": {
+    "beforeRouting": [
+      "coordinates",
+      "currentOpeningHours",
+      "operationalStatus"
+    ],
+    "beforeBudgetDisplay": [
+      "currentMenuOrPriceLevel"
+    ],
+    "display": "Bütçe aralıkları tahmindir. Kesin fiyat ve açık olduğu bilgisi canlı doğrulama olmadan gösterilmemelidir."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "dataset": "Kadıköy–Moda rota üretim kuralları ve başlangıç şablonları",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "dependsOn": "kadikoy-moda-seed-data.json",
+  "routeInput": {
+    "required": ["availableMinutes", "budgetTRY", "interests", "startPlaceId"],
+    "optional": ["date", "startTime", "walkingPreference", "weather", "ageRestrictionAllowed"]
+  },
+  "selectionRules": [
+    {
+      "id": "time-window",
+      "rule": "Aktivite, kullanıcının başlangıç zamanı ile bitiş zamanı arasına sığmalı; açık saatler olan mekanlar seçilmeden önce doğrulanmalı."
+    },
+    {
+      "id": "budget-cap",
+      "rule": "Seçilen aktivitelerin üst maliyet tahmini ve ulaşım için ayrılan pay, kullanıcının toplam bütçesini aşmamalı.",
+      "transportReserveTRY": 150
+    },
+    {
+      "id": "one-activity-per-place",
+      "rule": "Aynı mekanda varsayılan olarak yalnız bir aktivite seç. Kullanıcı 'rahat tempo' seçmişse istisna yapılabilir."
+    },
+    {
+      "id": "meal-window",
+      "rule": "Rota 5 saatten uzunsa 11:30–15:30 arasına en az bir öğle yemeği; 8 saatten uzunsa 16:00 sonrası kahve/tatlı veya 18:30 sonrası akşam yemeği ekle."
+    },
+    {
+      "id": "walking-buffer",
+      "rule": "Her iki durak arasına yürüyüş süresi ekle. Kadıköy–Moda içi kısa geçişlerde başlangıç varsayımı 5–20 dakikadır; canlı rota servisiyle değiştirilmelidir."
+    },
+    {
+      "id": "interest-score",
+      "rule": "Aktivite etiketleri kullanıcının ilgi alanlarıyla eşleştiğinde +3, bütçe tercihiyle eşleştiğinde +2, günün uygun saatiyle eşleştiğinde +2 puan alır. En yüksek puanlı uygun aktiviteler seçilir."
+    },
+    {
+      "id": "weather",
+      "rule": "Yağmurda açık-hava aktivitelerine -3 puan ver; müze, çarşı, kahve ve kültür-sanat etiketlerine +2 puan ver."
+    }
+  ],
+  "templates": [
+    {
+      "id": "budget-walk-kadikoy-moda",
+      "name": "Ekonomik Kadıköy–Moda yürüyüşü",
+      "targetProfile": { "availableMinutes": 300, "budgetTRY": 750, "interests": ["yürüyüş", "fotoğraf", "kahve", "yerel"], "pace": "normal" },
+      "estimatedTotal": { "durationMinutes": 300, "costRangeTRY": [330, 650], "walkingMinutes": 70 },
+      "stops": [
+        { "placeId": "kadikoy-ferry-terminal", "activity": "Rıhtımda kısa manzara molası", "durationMinutes": 15, "costTRY": 0 },
+        { "placeId": "kadikoy-market", "activity": "Pazar ve sokak lezzeti gezisi", "durationMinutes": 45, "costRangeTRY": [0, 250] },
+        { "placeId": "kadikoy-market", "activity": "Ekonomik öğle yemeği", "durationMinutes": 60, "costRangeTRY": [250, 650], "combinedVisit": true },
+        { "placeId": "moda-street", "activity": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [180, 500] },
+        { "placeId": "moda-coast-park", "activity": "Sahil yürüyüşü", "durationMinutes": 45, "costTRY": 0 },
+        { "placeId": "moda-pier", "activity": "Deniz manzarası ve fotoğraf", "durationMinutes": 25, "costTRY": 0 }
+      ],
+      "notes": ["Bu şablonda yemek ve kahve aynı bütçe içinde seçilir; iki aktivite için üst sınır toplanmamalıdır.", "Yağmurlu havada Moda Sahili yerine Yeldeğirmeni kahve molası eklenebilir."]
+    },
+    {
+      "id": "culture-moda-day",
+      "name": "Kültür, kahve ve Moda günü",
+      "targetProfile": { "availableMinutes": 390, "budgetTRY": 1500, "interests": ["müze", "müzik", "kahve", "manzara"], "pace": "normal" },
+      "estimatedTotal": { "durationMinutes": 390, "costRangeTRY": [512, 1482], "walkingMinutes": 85 },
+      "stops": [
+        { "placeId": "kadikoy-bull-statue", "activity": "Buluşma ve fotoğraf", "durationMinutes": 10, "costTRY": 0 },
+        { "placeId": "baris-manco-house", "activity": "Müze gezisi", "durationMinutes": 60, "costTRY": 82 },
+        { "placeId": "moda-street", "activity": "Butik ve plakçı gezisi", "durationMinutes": 45, "costRangeTRY": [0, 1000] },
+        { "placeId": "kadikoy-market", "activity": "Ekonomik öğle yemeği", "durationMinutes": 60, "costRangeTRY": [250, 650] },
+        { "placeId": "moda-pier", "activity": "İskele çevresinde kahve molası", "durationMinutes": 45, "costRangeTRY": [180, 500] },
+        { "placeId": "moda-coast-park", "activity": "Gün batımı izleme", "durationMinutes": 35, "costTRY": 0 }
+      ],
+      "notes": ["Bu rota Barış Manço Evi'nin açık olduğu Salı–Pazar günleri ve son giriş saatinden önce başlatılmalıdır.", "Plakçı alışverişi isteğe bağlıdır; bütçe hesabında ayrı tutulmalıdır."]
+    },
+    {
+      "id": "evening-social-kadikoy",
+      "name": "Kadıköy akşamüstü ve sosyal rota",
+      "targetProfile": { "availableMinutes": 300, "budgetTRY": 2000, "interests": ["kahve", "yemek", "müzik", "sosyal"], "pace": "rahat" },
+      "estimatedTotal": { "durationMinutes": 300, "costRangeTRY": [930, 2700], "walkingMinutes": 45 },
+      "stops": [
+        { "placeId": "yogurtcu-park", "activity": "Parkta dinlenme", "durationMinutes": 30, "costTRY": 0 },
+        { "placeId": "moda-pier", "activity": "İskele çevresinde kahve molası", "durationMinutes": 45, "costRangeTRY": [180, 500] },
+        { "placeId": "kadife-street", "activity": "Akşam yemeği", "durationMinutes": 75, "costRangeTRY": [400, 1200] },
+        { "placeId": "kadife-street", "activity": "Canlı müzik veya bar etkinliği", "durationMinutes": 120, "costRangeTRY": [350, 1500], "combinedVisit": true }
+      ],
+      "notes": ["18+ filtresi açık değilse son durak kaldırılmalı.", "Etkinlik ve işletme saatleri rota oluşturulurken canlı kaynaktan kontrol edilmelidir."]
+    }
+  ],
+  "nextDataNeed": [
+    "Her yemek ve kahve işletmesi için ad, koordinat, güncel açık saat, fiyat seviyesi ve doğrulama tarihi",
+    "Duraklar arası yürüme ve toplu taşıma süresi için rota API entegrasyonu",
+    "Etkinlik mekanları için güncel takvim ve bilet fiyatı"
+  ]
+}

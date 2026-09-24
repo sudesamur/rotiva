@@ -1,0 +1,30 @@
+﻿# Secrets
+.env
+.env.*
+*.key
+
+# Node
+node_modules/
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/android/.gradle/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary / internal work files
+work/
+04-09-2026_Gun_Sonu_Kodlari/
+
+# Logs
+*.logmobile/workspace_check.txt
+mobile/workspace_check.txt

@@ -1,0 +1,139 @@
+{
+  "dataset": "Sultanahmet–Eminönü: mekân ve aktivite başlangıç verisi",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "currency": "TRY",
+  "scope": "Günlük gezi rotası üretimi için kürasyon katmanı. Yeme-içme aralıkları editoryal tahmindir; güncel menü fiyatı değildir.",
+  "places": [
+    {
+      "id": "sultanahmet-square",
+      "name": "Sultanahmet Meydanı ve Hipodrom",
+      "type": "historic_square",
+      "coordinates": { "lat": 41.0056, "lng": 28.9769 },
+      "activities": [
+        { "name": "Meydan, Dikilitaş ve tarihi anıtlar yürüyüşü", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "yürüyüş", "fotoğraf"] },
+        { "name": "Meydan fotoğrafı", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf"] }
+      ],
+      "tags": ["başlangıç-noktası", "ücretsiz", "tarihi"],
+      "sources": ["https://muze.gov.tr/muze-detay?DistId=TIE&SectionId=TIE01"]
+    },
+    {
+      "id": "hagia-sophia",
+      "name": "Ayasofya-i Kebir Camii",
+      "type": "historic_religious_site",
+      "coordinates": { "lat": 41.0086, "lng": 28.9802 },
+      "activities": [
+        { "name": "Dış mimari ve meydan fotoğrafı", "durationMinutes": 25, "costTRY": 0, "tags": ["ücretsiz", "mimari", "fotoğraf"] },
+        { "name": "Ziyaret alanını gezme", "durationMinutes": 60, "costTRY": null, "costConfidence": "verification_required", "tags": ["tarihi", "mimari", "kapalı-mekân"] }
+      ],
+      "tags": ["tarihi", "mimari", "popüler"],
+      "sources": ["https://muze.gov.tr/s3/MysFileLibrary/IstanbulAyasofyaMuzesi-ca7842f8-b9a3-48e8-9265-c54d8e9128dd.pdf"],
+      "routeNote": "Ziyaretçi uygulaması, ücret ve ibadet saatleri rota kesinleştirilmeden önce resmî kanaldan doğrulanmalı."
+    },
+    {
+      "id": "basilica-cistern",
+      "name": "Yerebatan Sarnıcı",
+      "type": "museum_historic_site",
+      "coordinates": { "lat": 41.0084, "lng": 28.9779 },
+      "openingHours": null,
+      "activities": [
+        { "name": "Sarnıç ve Medusa başları gezisi", "durationMinutes": 60, "turkishCitizenCostTRY": 1, "costConfidence": "official", "tags": ["müze", "tarihi", "kapalı-mekân", "fotoğraf"] }
+      ],
+      "tags": ["müze", "tarihi", "yağmurlu-gün", "popüler"],
+      "sources": ["https://istanbulseninhaber.ibb.istanbul/haber-detay/yerebatan-sarnici-1-tl-oldu"],
+      "verificationStatus": "Yabancı ziyaretçi ve diğer indirim grupları için güncel tarife, rota önerilmeden önce ayrıca doğrulanmalı."
+    },
+    {
+      "id": "turkish-islamic-arts-museum",
+      "name": "Türk ve İslam Eserleri Müzesi",
+      "type": "museum",
+      "coordinates": { "lat": 41.0052, "lng": 28.9760 },
+      "openingHours": "Her gün 09:00–18:45; gece müzeciliği 19:00–22:00.",
+      "activities": [
+        { "name": "Müze gezisi", "durationMinutes": 90, "costTRY": null, "costConfidence": "museum_card_or_current_tariff_required", "tags": ["müze", "tarihi", "kapalı-mekân"] }
+      ],
+      "tags": ["müze", "tarihi", "yağmurlu-gün"],
+      "sources": ["https://muze.gov.tr/muze-detay?DistId=TIE&SectionId=TIE01"]
+    },
+    {
+      "id": "topkapi-palace",
+      "name": "Topkapı Sarayı",
+      "type": "palace_museum",
+      "coordinates": { "lat": 41.0115, "lng": 28.9833 },
+      "openingHours": null,
+      "activities": [
+        { "name": "Saray ve bahçeler gezisi", "durationMinutes": 180, "costTRY": null, "costConfidence": "museum_card_or_current_tariff_required", "tags": ["müze", "saray", "tarihi", "manzara"] },
+        { "name": "Harem bölümü gezisi", "durationMinutes": 60, "costTRY": null, "costConfidence": "separate_ticket_required", "tags": ["müze", "tarihi", "ek-bilet"] }
+      ],
+      "tags": ["müze", "saray", "tam-gün-durak", "popüler"],
+      "sources": ["https://www.muze.gov.tr/document/bakanlik_yonergesi_tr.pdf"],
+      "verificationStatus": "Harem ve diğer ek alan ücretleri ayrı doğrulanmalı; rota motoru Topkapı için en az üç saat ayırmalı."
+    },
+    {
+      "id": "istanbul-archaeological-museums",
+      "name": "İstanbul Arkeoloji Müzeleri",
+      "type": "museum",
+      "coordinates": { "lat": 41.0110, "lng": 28.9817 },
+      "openingHours": "Her gün 09:00–18:45.",
+      "activities": [
+        { "name": "Arkeoloji, Eski Şark Eserleri ve Çinili Köşk gezisi", "durationMinutes": 150, "costTRY": null, "foreignVisitorCostEUR": 15, "costConfidence": "official", "tags": ["müze", "arkeoloji", "tarihi", "kapalı-mekân"] }
+      ],
+      "tags": ["müze", "arkeoloji", "tam-gün-durak"],
+      "sources": ["https://muze.gov.tr/muze-detay?DistId=IAR&SectionId=IAR01"],
+      "verificationStatus": "Geçici kapanışlar ve sergi salonlarının erişimi rota oluşturulmadan önce kontrol edilmeli."
+    },
+    {
+      "id": "gulhane-park",
+      "name": "Gülhane Parkı",
+      "type": "park",
+      "coordinates": { "lat": 41.0131, "lng": 28.9815 },
+      "activities": [
+        { "name": "Parkta yürüyüş", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "yeşil-alan"] },
+        { "name": "Manzara ve dinlenme molası", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "dinlenme", "manzara"] }
+      ],
+      "tags": ["ücretsiz", "yeşil-alan", "açık-hava"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "sultanahmet-food-district",
+      "name": "Sultanahmet Yeme-İçme Alanı",
+      "type": "food_district",
+      "coordinates": { "lat": 41.0050, "lng": 28.9788 },
+      "activities": [
+        { "name": "Öğle yemeği", "durationMinutes": 70, "costRangeTRY": [400, 1300], "costConfidence": "editorial_estimate", "tags": ["öğle-yemeği", "yerel", "turistik"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [220, 650], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "dinlenme"] }
+      ],
+      "tags": ["yeme-içme", "kahve", "merkez"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "eminonu-square",
+      "name": "Eminönü Meydanı ve Rıhtım",
+      "type": "transport_hub",
+      "coordinates": { "lat": 41.0161, "lng": 28.9700 },
+      "activities": [
+        { "name": "Rıhtım ve Galata Köprüsü manzarası", "durationMinutes": 25, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] },
+        { "name": "Vapurla varış veya ayrılış", "durationMinutes": 20, "costTRY": null, "costConfidence": "operator_tariff_required", "tags": ["ulaşım", "boğaz"] }
+      ],
+      "tags": ["ulaşım", "başlangıç-noktası", "manzara"],
+      "sources": ["https://www.openstreetmap.org/"]
+    },
+    {
+      "id": "spice-bazaar",
+      "name": "Mısır Çarşısı",
+      "type": "historic_market",
+      "coordinates": { "lat": 41.0167, "lng": 28.9709 },
+      "activities": [
+        { "name": "Baharat ve yerel ürün gezisi", "durationMinutes": 45, "costRangeTRY": [0, 2000], "costConfidence": "activity_dependent", "tags": ["alışveriş", "yerel", "tarihi"] },
+        { "name": "Tatlı veya atıştırmalık molası", "durationMinutes": 30, "costRangeTRY": [150, 500], "costConfidence": "editorial_estimate", "tags": ["tatlı", "atıştırmalık", "yerel"] }
+      ],
+      "tags": ["alışveriş", "yerel-lezzet", "tarihi"],
+      "sources": ["https://www.openstreetmap.org/"]
+    }
+  ],
+  "dataRules": {
+    "foodAndCoffeePrices": "Güncel işletme menüsü veya yetkili API olmadan kesin fiyat gösterme; tahmini aralık etiketi kullan.",
+    "openingHours": "Rota üretmeden hemen önce resmî veya dinamik kaynaktan yeniden doğrula.",
+    "majorMuseums": "Topkapı Sarayı ve İstanbul Arkeoloji Müzeleri aynı kısa rotaya birlikte konmamalı; biri ana gün durağı seçilmeli."
+  }
+}

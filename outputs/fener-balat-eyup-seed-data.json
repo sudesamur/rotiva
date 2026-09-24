@@ -1,0 +1,100 @@
+{
+  "dataset": "Fener–Balat–Eyüp: mekân ve aktivite başlangıç verisi",
+  "version": "0.1.0",
+  "updatedAt": "2026-09-01",
+  "currency": "TRY",
+  "scope": "Mahalle keşfi, tarih ve manzara ağırlıklı günlük rota veri katmanı. Yeme-içme aralıkları editoryal tahmindir.",
+  "places": [
+    {
+      "id": "balat-waterfront",
+      "name": "Balat Sahili ve Haliç Yürüyüş Yolu",
+      "type": "waterfront",
+      "coordinates": { "lat": 41.0289, "lng": 28.9470 },
+      "activities": [
+        { "name": "Haliç boyunca yürüyüş", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "manzara"] },
+        { "name": "Sahil fotoğrafı", "durationMinutes": 20, "costTRY": 0, "tags": ["ücretsiz", "fotoğraf"] }
+      ],
+      "tags": ["ücretsiz", "manzara", "yürüyüş"],
+      "sources": ["https://www.fatih.bel.tr/tr/main/pages/tarihte-fatih/41"]
+    },
+    {
+      "id": "balat-historic-streets",
+      "name": "Balat Tarihî Sokakları",
+      "type": "historic_neighborhood",
+      "coordinates": { "lat": 41.0276, "lng": 28.9487 },
+      "activities": [
+        { "name": "Renkli evler ve sokak dokusu yürüyüşü", "durationMinutes": 60, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "yürüyüş", "fotoğraf"] },
+        { "name": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [180, 550], "costConfidence": "editorial_estimate", "tags": ["kahve", "tatlı", "dinlenme"] }
+      ],
+      "tags": ["fotoğraf", "tarihi", "kahve", "düşük-bütçe"],
+      "sources": ["https://www.fatih.bel.tr/tr/main/news/baskan-turan-balatta-gonullu-turizm-elcileri-/11040"]
+    },
+    {
+      "id": "fener-historic-streets",
+      "name": "Fener Tarihî Sokakları",
+      "type": "historic_neighborhood",
+      "coordinates": { "lat": 41.0295, "lng": 28.9530 },
+      "activities": [
+        { "name": "Mahalle ve tarihî yapı dış cepheleri gezisi", "durationMinutes": 60, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "mimari", "fotoğraf"] },
+        { "name": "Yerel kahve molası", "durationMinutes": 40, "costRangeTRY": [150, 450], "costConfidence": "editorial_estimate", "tags": ["kahve", "dinlenme"] }
+      ],
+      "tags": ["tarihi", "mimari", "fotoğraf", "kahve"],
+      "sources": ["https://www.fatih.bel.tr/tr/main/read/dosyalar/?file=118e5ee1c9f546f2a45503be06608dda.pdf"]
+    },
+    {
+      "id": "fener-greek-patriarchate-exterior",
+      "name": "Fener Rum Patrikhanesi çevresi",
+      "type": "historic_religious_site",
+      "coordinates": { "lat": 41.0315, "lng": 28.9504 },
+      "activities": [
+        { "name": "Tarihî çevre ve mimari gözlemi", "durationMinutes": 25, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "mimari"] }
+      ],
+      "tags": ["tarihi", "mimari", "kültürel-miras"],
+      "sources": ["https://www.fatih.bel.tr/en/main/pages/fatih-in-history/573"],
+      "routeNote": "İbadet alanı ve ziyaret koşulları için yerel kurallara uyulmalı; iç ziyaret varsayılan etkinlik değildir."
+    },
+    {
+      "id": "ayvansaray-historic-area",
+      "name": "Ayvansaray ve Tarihî Surlar Çevresi",
+      "type": "historic_area",
+      "coordinates": { "lat": 41.0382, "lng": 28.9408 },
+      "activities": [
+        { "name": "Tarihî çevre yürüyüşü", "durationMinutes": 50, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "yürüyüş"] },
+        { "name": "Mimari fotoğraf", "durationMinutes": 25, "costTRY": 0, "tags": ["ücretsiz", "mimari", "fotoğraf"] }
+      ],
+      "tags": ["tarihi", "fotoğraf", "açık-hava"],
+      "sources": ["https://www.fatih.bel.tr/tr/main/read/dosyalar/?file=118e5ee1c9f546f2a45503be06608dda.pdf"]
+    },
+    {
+      "id": "eyup-sultan-mosque",
+      "name": "Eyüp Sultan Camii ve Meydanı",
+      "type": "historic_religious_site",
+      "coordinates": { "lat": 41.0477, "lng": 28.9334 },
+      "activities": [
+        { "name": "Tarihî ve manevi ziyaret", "durationMinutes": 45, "costTRY": 0, "tags": ["ücretsiz", "tarihi", "manevi"] },
+        { "name": "Meydan ve çevre yürüyüşü", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "yürüyüş", "tarihi"] }
+      ],
+      "tags": ["tarihi", "manevi", "ücretsiz"],
+      "sources": ["https://kultursanat.eyupsultan.bel.tr/tr/eyupkultursanat/news/dunyanin-dort-bir-yanindan-ziyaretciler-eyups/18588"],
+      "routeNote": "İbadet saatleri ve mekân adabına göre ziyaret zamanı düzenlenmeli."
+    },
+    {
+      "id": "pierre-loti-viewpoint",
+      "name": "Pierre Loti Seyir Terası",
+      "type": "viewpoint_cafe",
+      "coordinates": { "lat": 41.0532, "lng": 28.9339 },
+      "activities": [
+        { "name": "Haliç manzarası", "durationMinutes": 30, "costTRY": 0, "tags": ["ücretsiz", "manzara", "fotoğraf"] },
+        { "name": "Manzaralı kahve molası", "durationMinutes": 50, "costRangeTRY": [150, 500], "costConfidence": "editorial_estimate", "tags": ["kahve", "manzara", "dinlenme"] },
+        { "name": "Teleferik yolculuğu", "durationMinutes": 20, "costTRY": null, "costConfidence": "operator_tariff_required", "tags": ["ulaşım", "teleferik", "manzara"] }
+      ],
+      "tags": ["manzara", "kahve", "fotoğraf", "popüler"],
+      "sources": ["https://www.eyupsultan.bel.tr/tr/main/pages/pierre-loti-seyir-terasi/1041", "https://www.eyupsultan.bel.tr/tr/main/pages/pierre-loti-kahvesi/1046"]
+    }
+  ],
+  "dataRules": {
+    "transport": "Balat–Eyüp hattında duraklar arası yürüme süresi kullanıcı tercihiyle hesaplanmalı; düşük yürüyüş tercihinde toplu taşıma bacağı zorunlu eklenmeli.",
+    "religiousSites": "İbadet saatleri ve yerel ziyaret kuralları rota oluşturulmadan önce kontrol edilmeli.",
+    "foodAndCoffeePrices": "Kesin fiyat yerine tahmini aralık göster."
+  }
+}

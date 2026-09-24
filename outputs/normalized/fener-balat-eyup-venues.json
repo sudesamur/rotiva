@@ -1,0 +1,785 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceFile": "fener-balat-eyup-food-coffee-venues.json",
+  "places": [
+    {
+      "id": "ferm-caffee-bakery-fener",
+      "name": "Ferm Caffee & Bakery",
+      "region": "fener-balat",
+      "category": "cafe",
+      "type": "coffee_bakery",
+      "tags": [
+        "Fener",
+        "Demir-Kilise-yakını",
+        "kahve"
+      ],
+      "coordinates": {
+        "lat": 41.0298087,
+        "lng": 28.9512781
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "kahve",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "fırın-ürünleri",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kahvaltı",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kısa-mola",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 140,
+      "costMaxTRY": 900,
+      "costRangeTRY": [
+        140,
+        900
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Her gün 08:00–20:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://fermcoffee.com/konum"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı, adres ve Plus Code eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "rincon-coffee-balat",
+      "name": "Rincon Coffee Shop Balat",
+      "region": "fener-balat",
+      "category": "cafe",
+      "type": "specialty_coffee",
+      "tags": [
+        "Balat",
+        "kahve",
+        "Vodina"
+      ],
+      "coordinates": {
+        "lat": 41.0323334,
+        "lng": 28.9471728
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "nitelikli-kahve",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "tatlı",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kısa-mola",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 140,
+      "costMaxTRY": 720,
+      "costRangeTRY": [
+        140,
+        720
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Her gün 10:00–23:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://rinconcoffee.net/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı ve resmî adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "nava-house-balat",
+      "name": "Nava House Balat",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_house_cafe",
+      "tags": [
+        "Balat",
+        "tarihi-yapı",
+        "fotoğraf",
+        "kahve"
+      ],
+      "coordinates": {
+        "lat": 41.0321905,
+        "lng": 28.9484943
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "kahve",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "tatlı",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "fotoğraf",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kısa-mola",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 140,
+      "costMaxTRY": 720,
+      "costRangeTRY": [
+        140,
+        720
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Her gün 09:00–23:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://navahousebalatgarden.com/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı, telefon ve resmî adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "balat-antik-cafe",
+      "name": "Balat Antik Cafe",
+      "region": "fener-balat",
+      "category": "cafe",
+      "type": "neighborhood_cafe",
+      "tags": [
+        "Balat",
+        "sokak-keşfi",
+        "kahvaltı"
+      ],
+      "coordinates": {
+        "lat": 41.0301352,
+        "lng": 28.9498876
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "çay",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kahve",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kahvaltı",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "kısa-mola",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 100,
+      "costMaxTRY": 900,
+      "costRangeTRY": [
+        100,
+        900
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Her gün 08:00–00:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://maps.apple.com/place?place-id=I209EBC86B9805F6F"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı ve adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "primi-balat",
+      "name": "Primi Balat",
+      "region": "fener-balat",
+      "category": "restaurant",
+      "type": "italian_rooftop_restaurant",
+      "tags": [
+        "Balat",
+        "manzara",
+        "rezervasyon",
+        "özel-gün"
+      ],
+      "coordinates": {
+        "lat": 41.0299294,
+        "lng": 28.9511219
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "kahvaltı",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "akşam-yemeği",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "makarna",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "Haliç-manzarası",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 900,
+      "costMaxTRY": 3200,
+      "costRangeTRY": [
+        900,
+        3200
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Kahvaltı 09:00–13:00; öğle ve akşam 12:00–23:45 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://primibalat.com/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı, resmî adres ve telefon eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "tantuni-istanbul-balat",
+      "name": "Tantuni İstanbul Balat",
+      "region": "fener-balat",
+      "category": "restaurant",
+      "type": "street_food_restaurant",
+      "tags": [
+        "Balat",
+        "Ayvansaray",
+        "bütçe-dostu"
+      ],
+      "coordinates": {
+        "lat": 41.0330473,
+        "lng": 28.9473732
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "hızlı-yemek",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "tantuni",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "öğle-yemeği",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "paket-al",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 245,
+      "costMaxTRY": 550,
+      "costRangeTRY": [
+        245,
+        550
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Hafta içi 12:00–01:00, hafta sonu 11:00–02:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://www.tantuniistanbulbalat.com/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı ve adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "balat-manticisi",
+      "name": "Balat Mantıcısı",
+      "region": "fener-balat",
+      "category": "restaurant",
+      "type": "turkish_restaurant",
+      "tags": [
+        "Balat",
+        "Türk-mutfağı",
+        "öğle-yemeği"
+      ],
+      "coordinates": {
+        "lat": 41.0330622,
+        "lng": 28.9461013
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "öğle-yemeği",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "mantı",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "yerel-lezzet",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 400,
+      "costMaxTRY": 950,
+      "costRangeTRY": [
+        400,
+        950
+      ],
+      "costConfidence": "estimated",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://balatmanticisi.com/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı, resmî web sitesi ve adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "agora-meyhanesi-balat",
+      "name": "Agora Meyhanesi",
+      "region": "fener-balat",
+      "category": "historical",
+      "type": "historic_meyhane",
+      "tags": [
+        "Balat",
+        "akşam",
+        "rezervasyon",
+        "tarihi"
+      ],
+      "coordinates": {
+        "lat": 41.0335803,
+        "lng": 28.9468056
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "akşam-yemeği",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "meyhane",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "mezeler",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "tarihi-atmosfer",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 1500,
+      "costMaxTRY": 3800,
+      "costRangeTRY": [
+        1500,
+        3800
+      ],
+      "costConfidence": "estimated",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://agora1890.com/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı, resmî adres ve telefon eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "pierre-loti-tarihi-kahve",
+      "name": "Pierre Loti Tarihi Kahve",
+      "region": "fener-balat",
+      "category": "cafe",
+      "type": "view_cafe",
+      "tags": [
+        "Eyüp",
+        "Pierre-Loti",
+        "manzara",
+        "kahve"
+      ],
+      "coordinates": {
+        "lat": 41.0537468,
+        "lng": 28.9331579
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "Türk-kahvesi",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "Haliç-manzarası",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "teleferik-sonrası-mola",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 120,
+      "costMaxTRY": 550,
+      "costRangeTRY": [
+        120,
+        550
+      ],
+      "costConfidence": "estimated",
+      "openingHours": null,
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://kulturportali.gov.tr/turkiye/istanbul/gezilecekyer/pierre-loti-kahvesi"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı ve Balmumcu Sokak No:5 adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    },
+    {
+      "id": "park-karadeniz-eyupsultan",
+      "name": "Park Karadeniz Kafe",
+      "region": "fener-balat",
+      "category": "cafe",
+      "type": "garden_cafe_restaurant",
+      "tags": [
+        "Eyüp",
+        "bahçe",
+        "sakin",
+        "gün-boyu"
+      ],
+      "coordinates": {
+        "lat": 41.0413125,
+        "lng": 28.9274375
+      },
+      "geocodeStatus": "verified",
+      "autoRouteEligible": true,
+      "activities": [
+        {
+          "name": "kahve",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "öğle-yemeği",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        },
+        {
+          "name": "bahçe-molası",
+          "durationMinutes": null,
+          "costTRY": null,
+          "costMinTRY": null,
+          "costMaxTRY": null,
+          "costConfidence": "unknown",
+          "tags": []
+        }
+      ],
+      "durationMinutes": null,
+      "costTRY": null,
+      "costMinTRY": 130,
+      "costMaxTRY": 1100,
+      "costRangeTRY": [
+        130,
+        1100
+      ],
+      "costConfidence": "estimated",
+      "openingHours": "Her gün 10:00–02:00 olarak listeleniyor; rota anında yeniden doğrula.",
+      "openingHoursStatus": "unknown",
+      "indoorOutdoor": "unknown",
+      "source": {
+        "dataset": "Fener–Balat–Eyüp isimli yeme içme mekânları",
+        "sourceType": "venue",
+        "urls": [
+          "https://parkkaradeniz.com/"
+        ],
+        "verificationSource": "Google Haritalar işletme kaydı ve resmî adres eşleşmesi (2026-09-04)",
+        "updatedAt": "2026-09-04"
+      },
+      "unknownFactors": [
+        "visit_duration",
+        "opening_hours_verification"
+      ]
+    }
+  ]
+}

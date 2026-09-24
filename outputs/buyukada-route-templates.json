@@ -1,0 +1,50 @@
+{
+  "dataset": "Büyükada rota şablonları",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-04",
+  "dependsOn": "buyukada-seed-data.json",
+  "templates": [
+    {
+      "id": "buyukada-active-day",
+      "name": "Büyükada aktif tam gün rotası",
+      "targetProfile": { "availableMinutes": 600, "budgetTRY": 2500, "interests": ["yürüyüş", "manzara", "tarihi", "kahve"], "pace": "aktif" },
+      "estimatedTotal": { "durationMinutes": 600, "costRangeTRY": [950, 2800], "returnTransportReserveTRY": null, "transportCostConfidence": "operator_tariff_required", "walkingMinutes": 210 },
+      "stops": [
+        { "placeId": "buyukada-ferry-pier", "activity": "Vapurla varış veya ayrılış", "durationMinutes": 25, "costTRY": null, "costConfidence": "operator_tariff_required" },
+        { "placeId": "buyukada-market-food-district", "activity": "Ada kahvaltısı", "durationMinutes": 75, "costRangeTRY": [350, 1000], "candidateVenueIds": ["julius-buyukada", "blanc-cafe-buyukada", "kervan-restaurant-buyukada"] },
+        { "placeId": "buyukada-historic-streets", "activity": "Ahşap köşkler arasında yürüyüş", "durationMinutes": 60, "costTRY": 0 },
+        { "placeId": "aya-yorgi-monastery", "activity": "Yüce Tepe yürüyüşü ve manastır ziyareti", "durationMinutes": 180, "costTRY": 0 },
+        { "placeId": "buyukada-market-food-district", "activity": "Öğle yemeği", "durationMinutes": 70, "costRangeTRY": [450, 1300], "candidateVenueIds": ["akasya-street-food-corner", "kervan-restaurant-buyukada", "konak-restaurant-buyukada"] },
+        { "placeId": "buyukada-market-food-district", "activity": "Dondurma veya tatlı molası", "durationMinutes": 30, "costRangeTRY": [150, 500], "candidateVenueIds": ["buyukada-ice-cream-stops"], "combinedVisit": true }
+      ],
+      "notes": ["Vapur dönüş saati seçilmeden bu şablon kesin rota olarak gösterilmemeli.", "Aya Yorgi yürüyüşü erişilebilir değildir; yağmurda veya aşırı sıcakta alternatif rota sunulmalı."]
+    },
+    {
+      "id": "buyukada-relaxed-day",
+      "name": "Büyükada sakin gün rotası",
+      "targetProfile": { "availableMinutes": 480, "budgetTRY": 2200, "interests": ["kahve", "tarihi", "manzara", "yemek"], "pace": "rahat" },
+      "estimatedTotal": { "durationMinutes": 480, "costRangeTRY": [800, 2600], "returnTransportReserveTRY": null, "transportCostConfidence": "operator_tariff_required", "walkingMinutes": 80 },
+      "stops": [
+        { "placeId": "buyukada-ferry-pier", "activity": "Vapurla varış veya ayrılış", "durationMinutes": 25, "costTRY": null, "costConfidence": "operator_tariff_required" },
+        { "placeId": "buyukada-historic-streets", "activity": "Ahşap köşkler arasında yürüyüş", "durationMinutes": 60, "costTRY": 0 },
+        { "placeId": "buyukada-market-food-district", "activity": "Öğle yemeği", "durationMinutes": 70, "costRangeTRY": [450, 1300], "candidateVenueIds": ["akasya-street-food-corner", "la-vie-cafe-buyukada", "sahilhane-buyukada"] },
+        { "placeId": "buyukada-market-food-district", "activity": "Dondurma veya tatlı molası", "durationMinutes": 30, "costRangeTRY": [150, 500], "candidateVenueIds": ["buyukada-ice-cream-stops"], "combinedVisit": true },
+        { "placeId": "dilburnu-picnic-area", "activity": "Piknik ve deniz manzarası", "durationMinutes": 90, "costRangeTRY": [200, 800] }
+      ],
+      "notes": ["Ada içi taşıma ve dönüş vapuru maliyetleri toplamda ayrıca eklenmeli.", "Plaj etkinlikleri yalnız yaz sezonu ve uygun hava koşullarında önerilmeli."]
+    },
+    {
+      "id": "buyukada-rainy-short-day",
+      "name": "Büyükada yağmurlu hava / kısa gün rotası",
+      "targetProfile": { "availableMinutes": 300, "budgetTRY": 1800, "interests": ["kahve", "tarihi", "yemek"], "pace": "rahat", "weather": "rain" },
+      "estimatedTotal": { "durationMinutes": 300, "costRangeTRY": [650, 1850], "returnTransportReserveTRY": null, "transportCostConfidence": "operator_tariff_required", "walkingMinutes": 45 },
+      "stops": [
+        { "placeId": "buyukada-ferry-pier", "activity": "Vapurla varış veya ayrılış", "durationMinutes": 25, "costTRY": null, "costConfidence": "operator_tariff_required" },
+        { "placeId": "buyukada-historic-streets", "activity": "Ahşap köşkler arasında yürüyüş", "durationMinutes": 45, "costTRY": 0, "weatherAlternative": "Yağış şiddetliyse bu durağı atla." },
+        { "placeId": "buyukada-market-food-district", "activity": "Ada kahvaltısı", "durationMinutes": 75, "costRangeTRY": [350, 950], "candidateVenueIds": ["julius-buyukada", "blanc-cafe-buyukada", "la-vie-cafe-buyukada"] },
+        { "placeId": "buyukada-market-food-district", "activity": "Öğle yemeği", "durationMinutes": 70, "costRangeTRY": [300, 900], "candidateVenueIds": ["akasya-street-food-corner", "kervan-restaurant-buyukada"] }
+      ],
+      "notes": ["Aya Yorgi, Hristos, Dilburnu ve plaj durakları bu şablonda gösterilmez.", "Dönüş vapuru canlı seçilmeden rota kesin olarak sunulmaz."]
+    }
+  ]
+}

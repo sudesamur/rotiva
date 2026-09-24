@@ -1,0 +1,48 @@
+{
+  "dataset": "Fener–Balat–Eyüp rota şablonları",
+  "version": "0.2.0",
+  "updatedAt": "2026-09-04",
+  "dependsOn": ["fener-balat-eyup-seed-data.json", "fener-balat-eyup-food-coffee-venues.json"],
+  "templates": [
+    {
+      "id": "balat-fener-photo-walk",
+      "name": "Balat–Fener fotoğraf ve kahve yürüyüşü",
+      "targetProfile": {"availableMinutes": 300, "budgetTRY": 1100, "interests": ["fotoğraf", "tarihi", "kahve", "yürüyüş"], "pace": "normal"},
+      "estimatedTotal": {"durationMinutes": 300, "costRangeTRY": [280, 1100], "walkingMinutes": 110},
+      "stops": [
+        {"placeId": "balat-waterfront", "activity": "Haliç boyunca yürüyüş", "durationMinutes": 35, "costTRY": 0},
+        {"placeId": "balat-historic-streets", "activity": "Renkli evler ve sokak dokusu yürüyüşü", "durationMinutes": 60, "costTRY": 0},
+        {"placeId": "balat-historic-streets", "activity": "Kahve veya tatlı molası", "durationMinutes": 45, "costRangeTRY": [140, 720], "candidateVenueIds": ["rincon-coffee-balat", "nava-house-balat", "balat-antik-cafe", "ferm-caffee-bakery-fener"], "combinedVisit": true},
+        {"placeId": "fener-greek-patriarchate-exterior", "activity": "Tarihî çevre ve mimari gözlemi", "durationMinutes": 25, "costTRY": 0},
+        {"placeId": "fener-historic-streets", "activity": "Yerel kahve molası", "durationMinutes": 35, "costRangeTRY": [140, 550], "candidateVenueIds": ["ferm-caffee-bakery-fener", "rincon-coffee-balat", "nava-house-balat"], "combinedVisit": true}
+      ],
+      "notes": ["Mahalleler eğimli sokaklar içerir; hareket kısıtı olan kullanıcılar için rota sadeleştirilmeli.", "İşletme açık olduğu canlı olarak doğrulanmadan kesin sıra önerilmemeli."]
+    },
+    {
+      "id": "balat-budget-food-walk",
+      "name": "Balat ekonomik yemek ve mahalle keşfi",
+      "targetProfile": {"availableMinutes": 330, "budgetTRY": 1300, "interests": ["yemek", "kahve", "fotoğraf", "tarihi"], "pace": "rahat"},
+      "estimatedTotal": {"durationMinutes": 330, "costRangeTRY": [345, 1450], "walkingMinutes": 95},
+      "stops": [
+        {"placeId": "balat-historic-streets", "activity": "Tarihî sokaklar ve fotoğraf yürüyüşü", "durationMinutes": 65, "costTRY": 0},
+        {"placeId": "ayvansaray-historic-area", "activity": "Surlar çevresinde yürüyüş ve mimari fotoğraf", "durationMinutes": 55, "costTRY": 0},
+        {"placeId": "ayvansaray-historic-area", "activity": "Hızlı öğle yemeği", "durationMinutes": 50, "costRangeTRY": [245, 950], "candidateVenueIds": ["tantuni-istanbul-balat", "balat-manticisi"], "combinedVisit": true},
+        {"placeId": "balat-historic-streets", "activity": "Kahve veya çay molası", "durationMinutes": 40, "costRangeTRY": [100, 500], "candidateVenueIds": ["balat-antik-cafe", "rincon-coffee-balat", "nava-house-balat"]}
+      ],
+      "notes": ["Bütçe aralığı seçilen yemek ve kahve mekanına göre değişir.", "Yürüyüş yoğunluğu azaltılacaksa Ayvansaray durağı atlanabilir."]
+    },
+    {
+      "id": "eyup-pierre-loti-sunset",
+      "name": "Eyüp Sultan ve Pierre Loti gün batımı",
+      "targetProfile": {"availableMinutes": 300, "budgetTRY": 1400, "interests": ["tarihi", "manzara", "kahve", "yemek"], "pace": "rahat"},
+      "estimatedTotal": {"durationMinutes": 300, "costRangeTRY": [270, 1420], "walkingMinutes": 45, "transportCostConfidence": "operator_tariff_required"},
+      "stops": [
+        {"placeId": "eyup-sultan-mosque", "activity": "Tarihî ve manevi ziyaret", "durationMinutes": 45, "costTRY": 0},
+        {"placeId": "eyup-sultan-mosque", "activity": "Öğle yemeği veya bahçe molası", "durationMinutes": 60, "costRangeTRY": [130, 1100], "candidateVenueIds": ["park-karadeniz-eyupsultan"], "combinedVisit": true},
+        {"placeId": "pierre-loti-viewpoint", "activity": "Teleferik yolculuğu", "durationMinutes": 20, "costTRY": null, "costConfidence": "operator_tariff_required"},
+        {"placeId": "pierre-loti-viewpoint", "activity": "Haliç manzarası ve kahve molası", "durationMinutes": 60, "costRangeTRY": [120, 550], "candidateVenueIds": ["pierre-loti-tarihi-kahve"], "combinedVisit": true}
+      ],
+      "notes": ["Teleferik ücreti güncel işletme tarifesinden eklenmeli.", "Cami ziyareti ibadet saatlerine göre zamanlanmalı.", "Gün batımı için mevsime göre rota başlangıç saati ayarlanmalı."]
+    }
+  ]
+}
